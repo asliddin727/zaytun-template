@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
 /* HEADER START */
 /* NAVBAR START */
 /* NAVBAR END */
