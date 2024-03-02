@@ -6,9 +6,54 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 .container {
   width: 95%;
   margin: 0 auto;
+}
+
+.login-submit-btn {
+  width: 30rem;
+  height: 5.4rem;
+  border-radius: 0.5rem;
+  background-color: #000;
+  font-size: 1.4rem;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 3rem;
+  transition: all 0.3s ease-in;
+}
+
+.login-submit-btn:hover {
+  background-color: transparent;
+  border: 0.2rem solid #000;
+  color: #000;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login-register-btn {
+  width: 30rem;
+  height: 5.4rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  border: 0.1rem solid #DAE0E5;
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: #000;
+  transition: all 0.3s ease-in;
+}
+
+.login-register-btn:hover {
+  border: 0.2rem solid #000;
+  transition: all 0.3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-weight: bold;
 }
 
 /* HEADER START */
@@ -260,4 +305,102 @@ header .container .header {
 .navbar .nav .nav-item .nav-link:hover {
   font-weight: 500;
   transition: font-weight 0.3s ease-in-out;
+}
+
+.login {
+  width: 1640px;
+  margin: 0 auto;
+  height: 100vh;
+}
+.login .login--wrapper {
+  padding-bottom: 4rem;
+}
+.login .login--wrapper .login-top {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+}
+.login .login--wrapper .login-top .login-lang-ru {
+  font-size: 1.4rem;
+  color: #DAE0E5;
+}
+.login .login--wrapper .login-top .login-lang-ru .login-lang-uz {
+  font-size: 1.4rem;
+  color: #000;
+}
+.login .login--wrapper .login-top .login-close-icon {
+  cursor: pointer;
+}
+.login .login--wrapper .login-form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login .login--wrapper .login-form-wrapper .login-form {
+  width: 30rem;
+}
+.login .login--wrapper .login-form-wrapper .login-form .login-logo {
+  width: 20.8rem;
+  height: 3.5rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5.6rem;
+}
+.login .login--wrapper .login-form-wrapper .login-form .login--heading {
+  font-size: 2.4rem;
+  color: #000;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.login .login--wrapper .login-form-wrapper .login-form .login--desc {
+  font-size: 1.4rem;
+  color: #8E969E;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+.login .login--wrapper .login-form-wrapper .login-form .login-tel-input {
+  width: 30rem;
+  height: 5.4rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #000;
+  background-color: transparent;
+  padding-left: 2rem;
+  font-size: 1.4rem;
+  color: #171F26;
+  margin-bottom: 2rem;
+}
+.login .login--wrapper .login-form-wrapper .login-form .login-password-input {
+  width: 30rem;
+  height: 5.4rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  border: 0.1rem solid #DAE0E5;
+  padding-left: 2rem;
+  margin-bottom: 3rem;
+}
+.login .login--wrapper .login-form-wrapper .login-form .login-fogot-your-password {
+  font-size: 1.4rem;
+  color: #171F26 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2.8rem;
+  transition: all 0.3s ease-in;
+}
+.login .login--wrapper .login-form-wrapper .login-form .login-fogot-your-password:hover {
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+.login .login--wrapper .login-form-wrapper .login-form hr {
+  margin-bottom: 3rem;
+}
+.login .login--wrapper .login-bottom-desc {
+  text-align: center;
+  margin-top: 17.4rem;
+  margin-bottom: 4rem;
+  font-size: 1.4rem;
+  color: #8E969E;
 }/*# sourceMappingURL=main.css.map */
