@@ -3,20 +3,40 @@ html(lang="en")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/assets/css/main.css")
         title Login
     body 
-        section.login 
+        section.login#login 
             .login--wrapper 
                 .login-top  
                     span    
                         a(href="#").login-lang-ru Рус | #[a(href="#").login-lang-uz O’zb]
-                    img(src="", alt="").login-close-icon
+                    img(src="/assets/images/icons/zaytun-login-close-icon.svg", alt="icon" onclick="closeIcon()").login-close-icon
 
-                form(action="").login-form
-                    img(src="", alt="").login-logo
-                    h3.login--heading Добро пожаловать!
-                    p.login--desc Вход в ваш аккаунт
+                .login-form-wrapper 
+                    form(action="").login-form
+                        img(src="/assets/images/logos/zaytun-login-logo.png", alt="").login-logo
+                        h3.login--heading Добро пожаловать!
+                        p.login--desc Вход в ваш аккаунт
 
-                    input(type="tel" placeholder="Номер телефона").login-tel-input
-                    input(type="password" placeholder="")
+                        input(type="tel" placeholder="Номер телефона" id="phone" name="phone").login-tel-input 
+                        br
+                        input(type="password" placeholder="Пароль").login-password-input 
+                        br
+                        
+                        button(type="submit").login-submit-btn Войти
+                        br
+
+                        a(href="#").login-fogot-your-password  Забыли пароль?
+
+                        hr
+
+                        button.login-register-btn Зарегистрироваться
+
+                p.login-bottom-desc © «Zaytun» 2020
+
+        
+        script(src="/script/script.js") 
+
+
 
