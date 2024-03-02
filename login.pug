@@ -1,0 +1,22 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Login
+    body 
+        section.login 
+            .login--wrapper 
+                .login-top  
+                    span    
+                        a(href="#").login-lang-ru Рус | #[a(href="#").login-lang-uz O’zb]
+                    img(src="", alt="").login-close-icon
+
+                form(action="").login-form
+                    img(src="", alt="").login-logo
+                    h3.login--heading Добро пожаловать!
+                    p.login--desc Вход в ваш аккаунт
+
+                    input(type="tel" placeholder="Номер телефона").login-tel-input
+                    input(type="password" placeholder="")
+
