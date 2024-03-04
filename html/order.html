@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS LINK-->
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <!-- FONTAWESOME-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- JS-->
+  <script defer type="text/javascript" src="../assets/js/order.js"></script>
+  <title>Zaytun</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header"><a class="logo" href="./index.html">
+          <h1>zaytun</h1></a>
+        <div class="language"><a class="ru">Рус</a><a class="uz">O'zb</a></div>
+        <div class="search">
+          <input type="text" placeholder="Что вас интересует?">
+          <input type="submit" value="Найти">
+        </div>
+        <div class="heart-cart-profile"><a class="heart" href="#"><i class="fa-regular fa-heart"></i>
+            <div class="desc"><span class="name">Избранное</span><span class="type">2 товара</span></div></a><a class="cart" href=""><i class="fa-solid fa-cart-shopping"></i>
+            <div class="desc"><span class="name">Корзина</span><span class="type">12 товара</span></div></a><a class="profile" href="order.html"><i class="fa-regular fa-user"></i>
+            <div class="desc"><span class="name">Антон Павлов</span><span class="type">Мой профиль</span></div></a></div>
+      </div>
+      <!-- НАВИГАЦИЯ НАЧАЛО-->
+      <nav class="navbar">
+        <div class="catalog"><i class="fa-solid fa-bars"></i><span>Каталог товаров</span></div>
+        <ol class="nav">
+          <li class="nav-item"><a class="nav-link" href="#">Продукты</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Одежда и обувь</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Электроника и офис</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Для дома</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Спорт</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Детские товары</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Красота</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Бытовая техника</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Здоровье</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Канцелярия</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Захоронение</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Ремонт</a></li>
+        </ol>
+      </nav>
+    </div>
+  </header>
+  <main class="order-main"> 
+    <div class="container"> 
+      <div class="order-sidebar"> 
+        <div class="username-register-date"> 
+          <h4 class="username">Антон Павлов</h4><span class="register-date">Зарегистрирован: 12.07.2020  </span>
+        </div>
+        <div class="order-menu"> 
+          <div class="item user-order active"><img src="../assets/images/icons/stack.svg" alt="Мои заказы"><span class="name">Мои заказы</span><span class="count">4 </span></div>
+          <div class="item heart"><img src="../assets/images/icons/heart.svg" alt="Избранное"><span class="name">Избранное</span><span class="count">2 </span></div>
+          <div class="item cart"><img src="../assets/images/icons/cart.svg" alt="Корзина"><span class="name">Корзина</span><span class="count">12 </span></div>
+          <div class="item promo-code"><img src="../assets/images/icons/carousel.svg" alt="Промокоды"><span class="name">Промокоды</span><span class="count"> </span></div>
+          <div class="item notifications"><img src="../assets/images/icons/bell.svg" alt="Уведомления"><span class="name">Уведомления</span><span class="count">2</span></div>
+          <div class="item address"><img src="../assets/images/icons/pin.svg" alt="Мои адреса"><span class="name">Мои адреса</span><span class="count"> </span></div>
+          <div class="item smile"><img src="../assets/images/icons/smile.svg" alt="Мои отзывы"><span class="name">Мои отзывы</span><span class="count"> </span></div>
+          <div class="item smile-sad"><img src="../assets/images/icons/smile-sad.svg" alt="Мои жалобы"><span class="name">Мои жалобы</span><span class="count"></span></div>
+          <div class="item settings"><img src="../assets/images/icons/lock.svg" alt="Настройки и безопасность"><span class="name">Настройки и безопасность</span><span class="count"></span></div>
+          <div class="item exit"><img src="../assets/images/icons/mail-reply.svg" alt="Выйти"><span class="name">Выйти</span><span class="count"></span></div>
+        </div>
+      </div>
+      <div class="order-list"> 
+        <h4 class="my-order-title">Мои заказы</h4>
+        <div class="my-order">
+          <div class="order-types">
+            <div class="item active-orders active"><span class="type">Активные заказы</span><span class="count">4</span></div>
+            <div class="item completed-orders"><span class="type">Выполненные заказы</span><span class="count">1</span></div>
+            <div class="item canceled-orders"> <span class="type">Отмененные заказы</span><span class="count">1</span></div>
+          </div>
+          <ol class="my-order-container">
+            <li class="order-item"> <a class="order-link" href="#"> 
+                <div class="order-item-header"> 
+                  <div class="order-number">
+                    <div class="name">Номер заказа</div>
+                    <div class="order-id">721499</div>
+                  </div>
+                  <div class="status">Обрабока заказа</div>
+                  <div class="total-price"> 
+                    <div class="name">К оплате</div>
+                    <div class="price">12 902 000 сум</div>
+                  </div>
+                </div>
+                <div class="order-item-main"> 
+                  <div class="order-datetime">
+                    <div class="receipt"> <span>Получение:</span>
+                      <p>Самовывоз</p>
+                    </div>
+                    <div class="datetime"> <span>Дата заказа:</span>
+                      <p>17.07.2020</p>
+                    </div>
+                    <div class="payment-type"><span>Тип оплаты:</span>
+                      <p>Онлайн</p>
+                    </div>
+                  </div>
+                  <div class="order-imgs"> <img src="../assets/images/orders/order-1.png" alt=""><img src="../assets/images/orders/order-2.png" alt=""><img src="../assets/images/orders/order-3.png" alt=""></div>
+                </div></a></li>
+            <li class="order-item"> <a class="order-link" href="#"> 
+                <div class="order-item-header"> 
+                  <div class="order-number">
+                    <div class="name">Номер заказа</div>
+                    <div class="order-id">83429</div>
+                  </div>
+                  <div class="status">Ожидается оплата</div>
+                  <div class="total-price"> 
+                    <div class="name">К оплате</div>
+                    <div class="price">12 902 000 сум</div>
+                  </div>
+                </div>
+                <div class="order-item-main"> 
+                  <div class="order-datetime">
+                    <div class="receipt"> <span>Получение:</span>
+                      <p>Курьером, Дом</p>
+                    </div>
+                    <div class="datetime"> <span>Дата заказа:</span>
+                      <p>16.07.2020</p>
+                    </div>
+                    <div class="payment-type"><span>Тип оплаты:</span>
+                      <p>Онлайн</p>
+                    </div>
+                  </div>
+                  <div class="order-imgs"> <img src="../assets/images/orders/order-4.png" alt=""><img src="../assets/images/orders/order-5.png" alt=""><img src="../assets/images/orders/order-6.png" alt=""><img src="../assets/images/orders/order-7.png" alt=""></div>
+                </div></a></li>
+            <li class="order-item"> <a class="order-link" href="#"> 
+                <div class="order-item-header"> 
+                  <div class="order-number">
+                    <div class="name">Номер заказа</div>
+                    <div class="order-id">83429</div>
+                  </div>
+                  <div class="status">Доставляется</div>
+                  <div class="total-price"> 
+                    <div class="name">К оплате</div>
+                    <div class="price">12 902 000 сум</div>
+                  </div>
+                </div>
+                <div class="order-item-main"> 
+                  <div class="order-datetime">
+                    <div class="receipt"> <span>Получение:</span>
+                      <p>Курьером, Работа</p>
+                    </div>
+                    <div class="datetime"> <span>Дата заказа:</span>
+                      <p>12.07.2020</p>
+                    </div>
+                    <div class="payment-type"><span>Тип оплаты:</span>
+                      <p>Пластиковой картой</p>
+                    </div>
+                  </div>
+                  <div class="order-imgs"> <img src="../assets/images/orders/order-8.png" alt=""></div>
+                </div></a></li>
+          </ol>
+          <div class="my-order-container-empty"><img src="../assets/images/icons/stack-big.svg" alt="Мои заказы">
+            <h4 class="warning">У вас еще нет заказов</h4><span>Вперед, начните покупать!</span>
+            <button>Начать покупки</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
