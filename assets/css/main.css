@@ -524,8 +524,138 @@ header .container .header {
   font-weight: 400;
   margin-bottom: 3.6rem;
 }
-.order-main .container .order-list .my-order .my-order-container-empty {
+.order-main .container .order-list .my-order .order-types {
   display: flex;
+  align-items: center;
+  gap: 3rem;
+  border-bottom: 0.1rem solid gray;
+  margin-bottom: 3rem;
+}
+.order-main .container .order-list .my-order .order-types .item {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: gray;
+  padding-bottom: 2rem;
+  cursor: pointer;
+}
+.order-main .container .order-list .my-order .order-types .item .type {
+  margin-right: 2rem;
+}
+.order-main .container .order-list .my-order .order-types .item .count {
+  color: gray;
+}
+.order-main .container .order-list .my-order .order-types .item:hover {
+  color: orange;
+  border-bottom: 0.2rem solid orange;
+  padding-bottom: 2rem;
+}
+.order-main .container .order-list .my-order .order-types .active {
+  color: orange;
+  border-bottom: 0.2rem solid orange;
+  padding-bottom: 2rem;
+}
+.order-main .container .order-list .my-order .my-order-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 6.6rem;
+  gap: 1rem;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item {
+  width: 100%;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 0.1rem solid gray;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.2rem;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-header {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 0.1rem solid gray;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-header .order-number {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-right: 3rem;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-header .order-number .name {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: gray;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-header .order-number .order-id {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: orange;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-header .status {
+  background-color: gray;
+  font-size: 1.4rem;
+  font-weight: 400;
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem;
+  color: #fff;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-header .total-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+  margin-left: auto;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-header .total-price .name {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: gray;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-header .total-price .price {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #000;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .receipt, .order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .datetime, .order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .payment-type {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #333;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .receipt span, .order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .datetime span, .order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .payment-type span {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .receipt p, .order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .datetime p, .order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .payment-type p {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-imgs {
+  display: flex;
+  align-items: baseline;
+  margin-left: auto;
+  gap: 2rem;
+}
+.order-main .container .order-list .my-order .my-order-container-empty {
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;

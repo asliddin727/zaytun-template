@@ -63,10 +63,98 @@ body
             .order-list 
                 h4.my-order-title Мои заказы
                 .my-order
+                    .order-types
+                        .item.active-orders.active
+                            span.type Активные заказы
+                            span.count 4
+                        .item.completed-orders
+                            span.type Выполненные заказы
+                            span.count 1
+                        .item.canceled-orders 
+                            span.type Отмененные заказы
+                            span.count 1
+                    ol.my-order-container
+                        li.order-item 
+                            a.order-link(href="#") 
+                                .order-item-header 
+                                    .order-number
+                                        .name Номер заказа
+                                        .order-id 721499
+                                    .status Обрабока заказа
+                                    .total-price 
+                                        .name К оплате
+                                        .price 12 902 000 сум
+                                .order-item-main 
+                                    .order-datetime
+                                        .receipt 
+                                            span Получение:
+                                            p Самовывоз
+                                        .datetime 
+                                            span Дата заказа:
+                                            p 17.07.2020
+                                        .payment-type
+                                            span Тип оплаты:
+                                            p Онлайн
+                                    .order-imgs 
+                                        img(src="../assets/images/orders/order-1.png", alt="")
+                                        img(src="../assets/images/orders/order-2.png", alt="")
+                                        img(src="../assets/images/orders/order-3.png", alt="")
+                        li.order-item 
+                            a.order-link(href="#") 
+                                .order-item-header 
+                                    .order-number
+                                        .name Номер заказа
+                                        .order-id 83429
+                                    .status Ожидается оплата
+                                    .total-price 
+                                        .name К оплате
+                                        .price 12 902 000 сум
+                                .order-item-main 
+                                    .order-datetime
+                                        .receipt 
+                                            span Получение:
+                                            p Курьером, Дом
+                                        .datetime 
+                                            span Дата заказа:
+                                            p 16.07.2020
+                                        .payment-type
+                                            span Тип оплаты:
+                                            p Онлайн
+                                    .order-imgs 
+                                        img(src="../assets/images/orders/order-4.png", alt="")
+                                        img(src="../assets/images/orders/order-5.png", alt="")
+                                        img(src="../assets/images/orders/order-6.png", alt="")
+                                        img(src="../assets/images/orders/order-7.png", alt="")
+                        li.order-item 
+                            a.order-link(href="#") 
+                                .order-item-header 
+                                    .order-number
+                                        .name Номер заказа
+                                        .order-id 83429
+                                    .status Доставляется
+                                    .total-price 
+                                        .name К оплате
+                                        .price 12 902 000 сум
+                                .order-item-main 
+                                    .order-datetime
+                                        .receipt 
+                                            span Получение:
+                                            p Курьером, Работа
+                                        .datetime 
+                                            span Дата заказа:
+                                            p 12.07.2020
+                                        .payment-type
+                                            span Тип оплаты:
+                                            p Пластиковой картой
+                                    .order-imgs 
+                                        img(src="../assets/images/orders/order-8.png", alt="")
+                                
+                    //- Order Empty 
                     .my-order-container-empty
                         img(src="../assets/images/icons/stack-big.svg", alt="Мои заказы")
                         h4.warning У вас еще нет заказов
                         span Вперед, начните покупать!
                         button Начать покупки
+                    
 
     include ./components/footer.pug
