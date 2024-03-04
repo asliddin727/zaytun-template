@@ -1,0 +1,192 @@
+.order-main{
+    .container{
+        display: flex;
+        align-items: flex-start;
+        gap: 3rem;
+        .order-sidebar{
+            position: relative;
+            width: 34rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex;
+            gap: 6rem;
+            .username-register-date{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                .username{
+                    font-size: 2.4rem;
+                    font-weight: 400;
+                    color: #000;
+                }
+                .register-date{
+                    font-size: 1.4rem;
+                    font-weight: 400;
+                    color: #E5E5E5;
+
+                }
+            }
+            .order-menu{
+                position: relative;
+                width: 34rem;
+                height: max-content;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                .user-order{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    padding: 1.3rem 1rem;
+                    border-radius: .5rem;
+                    cursor: pointer;
+                    img{
+                        width: 2rem;
+                        height: 2rem;
+                        margin-right: 2rem;
+                    }
+                    .name{
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        color: orange;
+                    }
+                    .count{
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        color: orange;
+                        margin-left: auto;
+                        background-color: #F2F5F7;
+                        border-radius: .5rem;
+                        position: absolute;
+                        right: 0;
+                        padding: 1rem 1.5rem;
+                    }
+                    &:hover{
+                        background-color: #F2F5F7;
+                        transition: background-color .3s ease-in-out;
+                    }
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+                .heart{
+                    @extend .user-order;
+                    background-color: transparent;
+                    .name{
+                        color: #000;
+                    }
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+                .cart{
+                    @extend .heart;
+                    .name{
+                        color: orange;
+                    }
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+                .promo-code{
+                    @extend .heart;
+                    border-bottom: .2rem solid #F2F5F7;
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+                .notifications{
+                    @extend .promo-code;
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+                .address{
+                    @extend .heart;
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+                .smile{
+                    @extend .heart;
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+                .address{
+                    @extend .heart;
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+                .smile-sad{
+                    @extend .promo-code;
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+                .settings{
+                    @extend .heart;
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+                .exit{
+                    @extend .heart;
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+            }
+        }
+        .order-list{
+            position: relative;
+            width: 100%;
+            .my-order-title{
+                font-size: 2.4rem;
+                font-weight: 400;
+                margin-bottom: 3.6rem;
+            }
+            .my-order{
+                .my-order-container-empty{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 10rem;
+                    img{
+                        width: 12rem;
+                        height: 12rem;
+                        margin-bottom: 7rem;
+                    }
+                    .warning{
+                        font-size: 2rem;
+                        font-weight: 400;
+                        margin-bottom: 1.7rem;
+                    }
+                    span{
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        color: grey;
+                        margin-bottom: 4rem;
+                    }
+                    button{
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        color: #fff;
+                        width: 27rem;
+                        height: 5.4rem;
+                        background: orange;
+                        border: none;
+                        cursor: pointer;
+                        transition: box-shadow .3s ease-in-out;
+                        &:hover{
+                            box-shadow: 0 0 2rem orange;
+                            transition: box-shadow .3s ease-in-out;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
