@@ -177,6 +177,7 @@ header .container .header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  color: black;
 }
 .heart i, .order-main .container .order-sidebar .order-menu .exit i, .order-main .container .order-sidebar .order-menu .settings i, .order-main .container .order-sidebar .order-menu .smile i, .order-main .container .order-sidebar .order-menu .address i, .order-main .container .order-sidebar .order-menu .promo-code i, .order-main .container .order-sidebar .order-menu .smile-sad i, .order-main .container .order-sidebar .order-menu .notifications i, .order-main .container .order-sidebar .order-menu .cart i {
   position: relative;
@@ -211,6 +212,7 @@ header .container .header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  color: black;
 }
 .cart i {
   position: relative;
@@ -224,6 +226,7 @@ header .container .header {
   padding: 2rem;
   background-color: #FFF45F;
   margin-right: 1rem;
+  color: black;
 }
 .cart i::after {
   position: absolute;
@@ -245,6 +248,7 @@ header .container .header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  color: black;
 }
 .profile i {
   position: relative;
