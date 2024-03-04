@@ -1,0 +1,54 @@
+.splide__list {
+    .splide__slide{
+        display: flex;
+        align-items:center;
+        flex-direction: row;
+        justify-content: space-between;
+        background: rgb(18,24,30);
+        background: linear-gradient(90deg, rgba(18,24,30,1) 0%, rgba(52,60,67,1) 75%);
+        color:#fff;
+        padding-right:13.8rem;
+        height: 32rem;
+
+        .splide__slide-left{
+            margin-left:4rem;
+            
+            .solide__slide-left-top-desc{
+                font-size: 2.4rem;
+                color: #fff;
+                margin-bottom: 12.7rem;
+            }
+
+            .solide__slide-left-heading1{
+                font-size: 3.6rem;
+                color:#fff;
+            }
+
+            .solide__slide-left-heading2{
+                font-size: 6rem;
+                color: #fff;
+            }
+        }
+
+        .splide__slide-right{
+            position: relative;
+            height: 32rem;
+
+            .splide__slide-right-img{
+                margin-top: 5.1rem;
+            }
+
+            .zaytun-hero-lamp-img1{
+                position: absolute;
+                left: 23rem;
+                bottom: 0rem;
+            }
+
+            .zaytun-hero-lamp-img2{
+                position: absolute;
+                right: 28rem;
+                bottom: 0rem;
+            }
+        }
+    }
+}
