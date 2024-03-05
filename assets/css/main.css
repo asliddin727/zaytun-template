@@ -987,4 +987,50 @@ main hr {
 }
 .mobile_apps .qr_code {
   padding: 30px;
+}
+
+main h1 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 50px 0px;
+}
+main .adding_goods {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+main .adding_goods p {
+  font-size: 20px;
+  font-weight: 400;
+}
+main .adding_goods span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #8e969e;
+}
+main .adding_goods .btn_wishlist {
+  margin-top: 20px;
+}
+main .recommended_wishlist {
+  margin-top: 230px;
+}
+main .recommended_wishlist h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+main .recommended_wishlist .title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+main .recommended_wishlist .title h4 {
+  font-size: 14px;
+  font-weight: 400;
+}
+main .recommended_wishlist .title span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffae00;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
