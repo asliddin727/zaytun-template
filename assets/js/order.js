@@ -44,6 +44,8 @@ orderStatus.forEach(item => {
         item.style.backgroundColor = 'orange';
     }else if(item.innerText === 'Обрабока заказа'){
         item.style.backgroundColor = 'gray';
+    }else if(item.innerText === 'Доставлен'){
+        item.style.backgroundColor = '#27AE60';
     }
 })
 
