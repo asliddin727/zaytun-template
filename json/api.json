@@ -1,0 +1,433 @@
+{
+    "category" : [
+        {
+            "id" : 1,
+            "image": "../img.smartphone.png",
+            "title" : "Смартфоны",
+            "href" : "category/smartphone"
+        },
+        {
+            "id" : 2,
+            "image": "../img/tvs.png",
+            "title" : "Телевизоры",
+            "href" : "category/tvs"
+        },
+        {
+            "id" : 3,
+            "image": "../img/ps4.png",
+            "title" : "Игровые приставки",
+            "href" : "category/ps4"
+        },
+        {
+            "id" : 4,
+            "image": "../img/laptops.png",
+            "title" : "Ноутбуки",
+            "href" : "category/laptops"
+        },
+        {
+            "id" : 5,
+            "image": "../img/bicycles.png",
+            "title" : "Велосипеды",
+            "href" : "category/bicycles"
+        },
+        {
+            "id" : 6,
+            "image": "../img/basseyns.png",
+            "title" : "Надувные бассейны",
+            "href" : "category/basseyns"
+        },
+        {
+            "id" : 7,
+            "image": "../img/topdresses.png",
+            "title" : "Верхняя одежда",
+            "href" : "category/topdresses"
+        },
+        {
+            "id" : 8,
+            "image": "../img/waters.png",
+            "title" : "Напитки",
+            "href" : "category/waters"
+        }
+    ],
+    "recommended" : [
+        {
+            "id" : 1,
+            "image": "../img/recommend-phone.png",
+            "price" : "8 460 000",
+            "title" : "Huawei P40 Pro Plus 8/240Gb, white",
+            "href" : "recommended/phone"
+        },
+        {
+            "id" : 2,
+            "image": "../img/recommend-airphone.png",
+            "price" : "2 720 000",
+            "title" : "Sony WH-1000XM3 беспроводные наушники",
+            "href" : "recommended/airphone"
+        },
+        {
+            "id" : 3,
+            "image": "../img/recommend-condit.png",
+            "price" : "3 199 200",
+            "title" : "Настенная сплит система Chigo HI912XA",
+            "href" : "recommended/condit"
+        },
+        {
+            "id" : 4,
+            "image": "../img/recommend-water.png",
+            "price" : "12 118 000",
+            "title" : "Bosch B29S накопительный водонагреватель",
+            "href" : "recommended/water"
+        },
+        {
+            "id" : 5,
+            "image": "../img/recommend-airpod.png",
+            "price" : "1 445 000",
+            "title" : "Apple Airpods 2 wireless charge",
+            "href" : "recommended/airpod"
+        },
+        {
+            "id" : 6,
+            "image": "../img/recommend-tv.png",
+            "price" : "3 489 000",
+            "title" : "Xiaomi MI TV 32” HD Smart TV",
+            "href" : "recommended/tv"
+        }
+    ],
+    "summer" : [
+        {
+            "id" : 1,
+            "image": "../img/summer-air.png",
+            "price" : "1 295 000",
+            "title" : "Delta DH92 Вентилятор с увлажнителем воздуха",
+            "href" : "summer-air"
+        },
+        {
+            "id" : 2,
+            "image": "../img/summer-airpol.png",
+            "price" : "1 320 000",
+            "title" : "Вентилятор напольный, с увлажнителем воздуха",
+            "href" : "summer-airpol"
+        },
+        {
+            "id" : 3,
+            "image": "../img/summer-pool.png",
+            "price" : "820 500",
+            "title" : "Надувной бассейн “Приключения в джунглях”",
+            "href" : "summer-pool"
+        },
+        {
+            "id" : 4,
+            "image": "../img/summer-camping-house.png",
+            "price" : "2 110 000",
+            "title" : "Maverick AERO палатка для кемпинга",
+            "href" : "summer-camping-house"
+        },
+        {
+            "id" : 5,
+            "image": "../img/summer-swimany.png",
+            "price" : "120 000",
+            "title" : "Матрас для плавания Swimany, 185х40 см",
+            "href" : "summer-swimany"
+        },
+        {
+            "id" : 6,
+            "image": "../img/summer-chair.png",
+            "price" : "184 000",
+            "title" : "Стулья деревянные, для дачи, отдыха",
+            "href" : "summer-chair"
+        }
+    ],
+    "season" : [
+        {
+            "id" : 1,
+            "image": "../img/gazoon.png",
+            "price" : "320 000",
+            "title" : "Газон, м²",
+            "href" : "gazoon"
+        },
+        {
+            "id" : 2,
+            "image": "../img/flower-pot.png",
+            "price" : "50 000",
+            "title" : "Пластмассовый горшок для цветов",
+            "href" : "flower-pot"
+        },
+        {
+            "id" : 3,
+            "image": "../img/basket.png",
+            "price" : "12 000",
+            "title" : "Жестяное ведро",
+            "href" : "basket"
+        },
+        {
+            "id" : 4,
+            "image": "../img/lawn-mover.png",
+            "price" : "12 118 000",
+            "title" : "Bosch B29S газонокосилка электрическая",
+            "href" : "lawn-mover"
+        },
+        {
+            "id" : 5,
+            "image": "../img/swings.png",
+            "price" : "3 489 000",
+            "title" : "Скамья качели",
+            "href" : "swings"
+        },
+        {
+            "id" : 6,
+            "image": "../img/table-for-picnic.png",
+            "price" : "1 455 000",
+            "title" : "Раскладной столик для пикника",
+            "href" : "table-for-picnic"
+        }
+    ],
+    "outerwear" : [
+        {
+            "id" : 1,
+            "image": "../img/shirt.png",
+            "price" : "15 920 000",
+            "title" : "Рубашка LC Waikiki мужская, фиолетовая",
+            "href" : "shirt"
+        }
+    ],
+    "product" : [
+        {
+            "id" : 1,
+            "image": "../img/phone-A51.png",
+            "price" : "16 843 000",
+            "title" : "Samsung Galaxy A51 4/64GB",
+            "href" : "phone-A51",
+            "sideImg" : "../img/mini-phoneA51.png",
+            "backSideImg" : "../img/backside-phoneA51.png",
+            "leftSideImg" : "../img/leftside-phoneA51.png",
+            "rightSideImg" : "../img/rightside-phoneA51.png",
+            "left-rightSideImg" : "../img/left-rightside-phoneA51.png",
+            "memory" : "4/64GB",
+            "second-memory" : "6/128GB",
+            "color" : "#FFFFFF",
+            "second-color" : "#171F26",
+            "third-color" : "#FFAE00",
+            "platform" : "Android 10",
+            "sim-cards" : "2 SIM + SD Card",
+            "diagonal" : "6.5''",
+            "camera" : "48МП+8МП+5МП+5МП",
+            "battery" : "4 000 mAh",
+            "matritsaType" : "SUPER AMOLED",
+            "gabarits" : "ШхВхТ 142х79.0х13.5 мм, вес 140 г",
+            "cpu" : "Exynos 420, 8 ядер",
+            "guaranty" : "1 год"
+        },
+        {
+            "id" : 2,
+            "discount" : "2 720 000",
+            "price" : "16 843 000"
+        },
+        {
+            "id" : 3,
+            "image": "../img.samsung-watches.png",
+            "price" : "3 824 000",
+            "title" : "Samsung Watches 5 series 16GB",
+            "href" : "samsung-watches"
+        },
+        {
+            "id" : 4,
+            "image": "../img/phone-case.png",
+            "price" : "54 000",
+            "title" : "Чехол Samsung Galaxy A51 силиконовый",
+            "href" : "phone-case"
+        },
+        {
+            "id" : 5,
+            "image": "../img/airpods-pro.png",
+            "price" : "2 540 000",
+            "title" : "Apple Airpods Pro беспроводные наушн...",
+            "href" : "airpods-pro"
+        },
+        {
+            "id" : 6,
+            "image": "../img/flesh-micro.png",
+            "price" : "40 000",
+            "title" : "Флеш карта Sandisk Micro SD 16GB",
+            "href" : "flesh-micro"
+        },
+        {
+            "id" : 7,
+            "image": "../img/airpods.png",
+            "price" : "3 199 200",
+            "title" : "AirPods",
+            "href" : "airpods"
+        },
+        {
+            "id" : 8,
+            "totalCost" : "16 843 000"
+        }
+    ],
+    "goods" : [
+        {
+            "id" : 1,
+            "image": "../img/asus-laptop.png",
+            "price" : "7 890 000",
+            "title" : "Asus VivoBook 15” Intel Core i5 16/256GB 1TB",
+            "href" : "asus-laptop"
+        },
+        {
+            "id" : 2,
+            "image": "../img/epson-fullhd.png",
+            "price" : "3 210 000",
+            "title" : "Проектор EPSON TL838, FullHD 4 000Cndl sRGB",
+            "href" : "epson-fullhd"
+        },
+        {
+            "id" : 3,
+            "image": "../img/asus-13-laptop.png",
+            "price" : "6 980 000",
+            "title" : "Asus VivoBook 13” Intel Core i5 8/128GB",
+            "href" : "asus-13-laptop"
+        },
+        {
+            "id" : 4,
+            "image": "../img/ipad.png",
+            "price" : "12 118 000",
+            "title" : "iPad Pro 12.9” Wi-Fi + Cellular 256 GB - Space Gray",
+            "href" : "ipad"
+        }
+    ],
+    "recommendation" : [
+        {
+            "id" : 1,
+            "image": "../img/recommend-phone.png",
+            "price" : "6 820 000",
+            "title" : "Huawei P40 PRO 8/128GB, белый",
+            "href" : "recommend-phone"
+        },
+        {
+            "id" : 2,
+            "image": "../img/iphone11.png",
+            "price" : "8 240 000",
+            "title" : "Apple iPhone 11 8/128 GB, черный",
+            "href" : "iphone11"
+        },
+        {
+            "id" : 3,
+            "image": "../img/galaxyS20.png",
+            "price" : "9 824 000",
+            "title" : "Samsung Galaxy S20 8/128GB",
+            "href" : "galaxyS20"
+        },
+        {
+            "id" : 4,
+            "image": "../img/xiaomi-Mi9t.png",
+            "price" : "6 118 000",
+            "title" : "Xiaomi Mi 9T, 8/128GB",
+            "href" : "xiaomi-Mi9t"
+        }
+    ],
+    "wishlist" : [
+        {
+            "id" : 1,
+            "image": "../img/recommend-airphone.png",
+            "price" : "3 020 000",
+            "title" : "Sony WH-1000XM3 беспроводные наушники",
+            "href" : "recommend-airphone",
+            "color" : "#DAE0E5",
+            "second-color" : "#171F26",
+            "platform" : "Android 10",
+            "sim-cards" : "2 SIM + SD Card",
+            "diagonal" : "6.5''",
+            "camera" : "48МП+8МП+5МП+5МП",
+            "battery" : "4 000 mAh",
+            "matritsaType" : "SUPER AMOLED",
+            "gabarits" : "ШхВхТ 142х79.0х13.5 мм, вес 140 г"
+        },
+        {
+            "id" : 2,
+            "image": "../img/black-iphone11.png",
+            "price" : "8 249 000",
+            "title" : "Apple iPhone 11 8/128 GB, черный",
+            "href" : "black-iphone11",
+            "memory" : "6/128GB",
+            "second-memory" : "8/256GB",
+            "color" : "#F23D5B",
+            "second-color" : "#FFFFFF",
+            "third-color" : "#FFAE00",
+            "platform" : "iOS 13",
+            "sim-cards" : "2 SIM + SD Card",
+            "diagonal" : "6.5''",
+            "camera" : "48МП+8МП+5МП+5МП",
+            "battery" : "4 000 mAh",
+            "matritsaType" : "SUPER AMOLED",
+            "gabarits" : "ШхВхТ 142х79.0х13.5 мм, вес 140 г"
+        }
+    ],
+    "basket" : [
+        {
+            "id" : 1,
+            "image": "../img/basket-apple11.png",
+            "price" : "16 843 000",
+            "title" : "Apple iPhone 11 8/128 GB, черный",
+            "href" : "basket-apple11"
+        },
+        {
+            "id" : 2,
+            "image": "../img/basket-sony-airphone.png",
+            "price" : "16 843 000",
+            "title" : "Sony WH-1000XM3 беспроводные наушники",
+            "href" : "basket-sony-airphone"
+        },
+        {
+            "id" : 3,
+            "image": "../img/basket-waikiki.png",
+            "price" : "16 843 000",
+            "text" : "цвет пурпурный, размер S",
+            "title" : "Рубашка LC Waikiki мужская, фиолетовая",
+            "href" : "basket-waikiki"
+        },
+        {
+            "id" : 4,
+            "products" : "17 923 090",
+            "discounts" : "1 819 023",
+            "pay" : "16 011 067"
+        },
+        {
+            "id" : 5,
+            "image": "../img/basket-smart-tv.png",
+            "price" : "Нет в наличии",
+            "title" : "Xiaomi MI TV 32” HD Smart TV",
+            "href" : "basket-smart-tv"
+        }
+    ],
+    "order" : [
+        {
+            "id" : 1,
+            "image": "../img/order-iphone11.png",
+            "secondImg" : "../img/order-airphone.png",
+            "thirdImg" : "../img/order-waikiki.png",
+            "price" : "12 902 000",
+            "orderNumber" : "721499",
+            "get" : "Самовывоз",
+            "orderData" : "17.07.2020",
+            "payType" : "Онлайн"
+        },
+        {
+            "id" : 2,
+            "image": "../img/order-condit.png",
+            "secondImg" : "../img/order-water.png",
+            "thirdImg" : "../img/order-smart-tv.png",
+            "fourthImg" : "../img/order-airpods.png",
+            "price" : "12 902 000",
+            "orderNumber" : "83429",
+            "get" : "Курьером, Дом",
+            "orderData" : "16.07.2020",
+            "payType" : "Онлайн"
+        },
+        {
+            "id" : 3,
+            "image": "../img/order-phoneA51.png",
+            "price" : "12 902 000",
+            "orderNumber" : "83429",
+            "get" : "Курьером, Дом",
+            "orderData" : "17.07.2020",
+            "payType" : "Пластиковой картой"
+        }
+    ]
+}
