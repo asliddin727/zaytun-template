@@ -1,0 +1,177 @@
+.reviews-main {
+  display: flex;
+  .order-sidebar {
+    position: relative;
+    width: 34rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+    gap: 6rem;
+    .username-register-date {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      .username {
+        font-size: 2.4rem;
+        font-weight: 400;
+        color: #000;
+      }
+      .register-date {
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: #e5e5e5;
+      }
+    }
+    .order-menu {
+      position: relative;
+      width: 34rem;
+      height: max-content;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      .user-order {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 1.3rem 1rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        img {
+          width: 2rem;
+          height: 2rem;
+          margin-right: 2rem;
+        }
+        .name {
+          font-size: 1.4rem;
+          font-weight: 400;
+          color: orange;
+        }
+        .count {
+          font-size: 1.4rem;
+          font-weight: 400;
+          color: orange;
+          margin-left: auto;
+          background-color: #f2f5f7;
+          border-radius: 0.5rem;
+          position: absolute;
+          right: 0;
+          padding: 1rem 1.5rem;
+        }
+        &:hover {
+          background-color: #f2f5f7;
+          transition: background-color 0.3s ease-in-out;
+        }
+      }
+      .active {
+        background-color: #f2f5f7;
+      }
+      .heart {
+        @extend .user-order;
+        background-color: transparent;
+        .name {
+          color: #000;
+        }
+      }
+      .active {
+        background-color: #f2f5f7;
+      }
+      .cart {
+        @extend .heart;
+        .name {
+          color: orange;
+        }
+      }
+      .active {
+        background-color: #f2f5f7;
+      }
+      .promo-code {
+        @extend .heart;
+        border-bottom: 0.2rem solid #f2f5f7;
+      }
+      .active {
+        background-color: #f2f5f7;
+      }
+      .notifications {
+        @extend .promo-code;
+      }
+      .active {
+        background-color: #f2f5f7;
+      }
+      .address {
+        @extend .heart;
+      }
+      .active {
+        background-color: #f2f5f7;
+      }
+      .smile {
+        @extend .heart;
+      }
+      .active {
+        background-color: #f2f5f7;
+      }
+      .address {
+        @extend .heart;
+      }
+      .active {
+        background-color: #f2f5f7;
+      }
+      .smile-sad {
+        @extend .promo-code;
+      }
+      .active {
+        background-color: #f2f5f7;
+      }
+      .settings {
+        @extend .heart;
+      }
+      .active {
+        background-color: #f2f5f7;
+      }
+      .exit {
+        @extend .heart;
+      }
+      .active {
+        background-color: #f2f5f7;
+      }
+    }
+  }
+  .review-content {
+    padding-left: 80px;
+    h1 {
+      margin: 0;
+      padding: 0px 0px 30px 0px;
+    }
+    .review-by-client {
+      display: flex;
+      gap: 30px;
+      border: 1px solid #dae0e5;
+      border-radius: 5px;
+      padding: 20px;
+      .text-content {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        h3 {
+          color: #000;
+          font-size: 14px;
+          font-weight: 500;
+        }
+        p {
+          font-size: 14px;
+          font-weight: 400;
+          color: #171f26;
+        }
+        .stars {
+          img {
+            padding-right: 6px;
+          }
+        }
+        .review-images {
+          img {
+            padding-right: 7px;
+          }
+        }
+      }
+    }
+  }
+}

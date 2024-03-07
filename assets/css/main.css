@@ -178,18 +178,18 @@ header .container .header {
   color: #FFAE00;
 }
 
-.heart, .order-main .container .order-sidebar .order-menu .exit, .order-main .container .order-sidebar .order-menu .settings, .order-main .container .order-sidebar .order-menu .smile, .order-main .container .order-sidebar .order-menu .address, .order-main .container .order-sidebar .order-menu .promo-code, .order-main .container .order-sidebar .order-menu .smile-sad, .order-main .container .order-sidebar .order-menu .notifications, .order-main .container .order-sidebar .order-menu .cart {
+.heart, .reviews-main .order-sidebar .order-menu .exit, .reviews-main .order-sidebar .order-menu .settings, .reviews-main .order-sidebar .order-menu .smile, .reviews-main .order-sidebar .order-menu .address, .reviews-main .order-sidebar .order-menu .promo-code, .reviews-main .order-sidebar .order-menu .smile-sad, .reviews-main .order-sidebar .order-menu .notifications, .reviews-main .order-sidebar .order-menu .cart, .order-main .container .order-sidebar .order-menu .exit, .order-main .container .order-sidebar .order-menu .settings, .order-main .container .order-sidebar .order-menu .smile, .order-main .container .order-sidebar .order-menu .address, .order-main .container .order-sidebar .order-menu .promo-code, .order-main .container .order-sidebar .order-menu .smile-sad, .order-main .container .order-sidebar .order-menu .notifications, .order-main .container .order-sidebar .order-menu .cart {
   display: flex;
   align-items: center;
   cursor: pointer;
 }
-.heart .desc, .order-main .container .order-sidebar .order-menu .exit .desc, .order-main .container .order-sidebar .order-menu .settings .desc, .order-main .container .order-sidebar .order-menu .smile .desc, .order-main .container .order-sidebar .order-menu .address .desc, .order-main .container .order-sidebar .order-menu .promo-code .desc, .order-main .container .order-sidebar .order-menu .smile-sad .desc, .order-main .container .order-sidebar .order-menu .notifications .desc, .order-main .container .order-sidebar .order-menu .cart .desc {
+.heart .desc, .reviews-main .order-sidebar .order-menu .exit .desc, .reviews-main .order-sidebar .order-menu .settings .desc, .reviews-main .order-sidebar .order-menu .smile .desc, .reviews-main .order-sidebar .order-menu .address .desc, .reviews-main .order-sidebar .order-menu .promo-code .desc, .reviews-main .order-sidebar .order-menu .smile-sad .desc, .reviews-main .order-sidebar .order-menu .notifications .desc, .reviews-main .order-sidebar .order-menu .cart .desc, .order-main .container .order-sidebar .order-menu .exit .desc, .order-main .container .order-sidebar .order-menu .settings .desc, .order-main .container .order-sidebar .order-menu .smile .desc, .order-main .container .order-sidebar .order-menu .address .desc, .order-main .container .order-sidebar .order-menu .promo-code .desc, .order-main .container .order-sidebar .order-menu .smile-sad .desc, .order-main .container .order-sidebar .order-menu .notifications .desc, .order-main .container .order-sidebar .order-menu .cart .desc {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   color: black;
 }
-.heart i, .order-main .container .order-sidebar .order-menu .exit i, .order-main .container .order-sidebar .order-menu .settings i, .order-main .container .order-sidebar .order-menu .smile i, .order-main .container .order-sidebar .order-menu .address i, .order-main .container .order-sidebar .order-menu .promo-code i, .order-main .container .order-sidebar .order-menu .smile-sad i, .order-main .container .order-sidebar .order-menu .notifications i, .order-main .container .order-sidebar .order-menu .cart i {
+.heart i, .reviews-main .order-sidebar .order-menu .exit i, .reviews-main .order-sidebar .order-menu .settings i, .reviews-main .order-sidebar .order-menu .smile i, .reviews-main .order-sidebar .order-menu .address i, .reviews-main .order-sidebar .order-menu .promo-code i, .reviews-main .order-sidebar .order-menu .smile-sad i, .reviews-main .order-sidebar .order-menu .notifications i, .reviews-main .order-sidebar .order-menu .cart i, .order-main .container .order-sidebar .order-menu .exit i, .order-main .container .order-sidebar .order-menu .settings i, .order-main .container .order-sidebar .order-menu .smile i, .order-main .container .order-sidebar .order-menu .address i, .order-main .container .order-sidebar .order-menu .promo-code i, .order-main .container .order-sidebar .order-menu .smile-sad i, .order-main .container .order-sidebar .order-menu .notifications i, .order-main .container .order-sidebar .order-menu .cart i {
   position: relative;
   display: flex;
   align-items: center;
@@ -202,7 +202,7 @@ header .container .header {
   background-color: #FFF45F;
   margin-right: 1rem;
 }
-.heart i::after, .order-main .container .order-sidebar .order-menu .exit i::after, .order-main .container .order-sidebar .order-menu .settings i::after, .order-main .container .order-sidebar .order-menu .smile i::after, .order-main .container .order-sidebar .order-menu .address i::after, .order-main .container .order-sidebar .order-menu .promo-code i::after, .order-main .container .order-sidebar .order-menu .smile-sad i::after, .order-main .container .order-sidebar .order-menu .notifications i::after, .order-main .container .order-sidebar .order-menu .cart i::after {
+.heart i::after, .reviews-main .order-sidebar .order-menu .exit i::after, .reviews-main .order-sidebar .order-menu .settings i::after, .reviews-main .order-sidebar .order-menu .smile i::after, .reviews-main .order-sidebar .order-menu .address i::after, .reviews-main .order-sidebar .order-menu .promo-code i::after, .reviews-main .order-sidebar .order-menu .smile-sad i::after, .reviews-main .order-sidebar .order-menu .notifications i::after, .reviews-main .order-sidebar .order-menu .cart i::after, .order-main .container .order-sidebar .order-menu .exit i::after, .order-main .container .order-sidebar .order-menu .settings i::after, .order-main .container .order-sidebar .order-menu .smile i::after, .order-main .container .order-sidebar .order-menu .address i::after, .order-main .container .order-sidebar .order-menu .promo-code i::after, .order-main .container .order-sidebar .order-menu .smile-sad i::after, .order-main .container .order-sidebar .order-menu .notifications i::after, .order-main .container .order-sidebar .order-menu .cart i::after {
   position: absolute;
   content: "";
   width: 1rem;
@@ -1287,4 +1287,153 @@ main .recommended_wishlist .title span {
   font-weight: 400;
   color: #ffae00;
   cursor: pointer;
+}
+
+.reviews-main {
+  display: flex;
+}
+.reviews-main .order-sidebar {
+  position: relative;
+  width: 34rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex;
+  gap: 6rem;
+}
+.reviews-main .order-sidebar .username-register-date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.reviews-main .order-sidebar .username-register-date .username {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #000;
+}
+.reviews-main .order-sidebar .username-register-date .register-date {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #e5e5e5;
+}
+.reviews-main .order-sidebar .order-menu {
+  position: relative;
+  width: 34rem;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.reviews-main .order-sidebar .order-menu .user-order, .reviews-main .order-sidebar .order-menu .heart, .reviews-main .order-sidebar .order-menu .exit, .reviews-main .order-sidebar .order-menu .settings, .reviews-main .order-sidebar .order-menu .smile, .reviews-main .order-sidebar .order-menu .address, .reviews-main .order-sidebar .order-menu .promo-code, .reviews-main .order-sidebar .order-menu .smile-sad, .reviews-main .order-sidebar .order-menu .notifications, .reviews-main .order-main .container .order-sidebar .order-menu .notifications, .order-main .container .reviews-main .order-sidebar .order-menu .notifications, .reviews-main .order-main .container .order-sidebar .order-menu .smile-sad, .order-main .container .reviews-main .order-sidebar .order-menu .smile-sad, .reviews-main .order-sidebar .order-menu .cart, .reviews-main .order-main .container .order-sidebar .order-menu .cart, .order-main .container .reviews-main .order-sidebar .order-menu .cart, .reviews-main .order-main .container .order-sidebar .order-menu .promo-code, .order-main .container .reviews-main .order-sidebar .order-menu .promo-code, .reviews-main .order-main .container .order-sidebar .order-menu .address, .order-main .container .reviews-main .order-sidebar .order-menu .address, .reviews-main .order-main .container .order-sidebar .order-menu .smile, .order-main .container .reviews-main .order-sidebar .order-menu .smile, .reviews-main .order-main .container .order-sidebar .order-menu .settings, .order-main .container .reviews-main .order-sidebar .order-menu .settings, .reviews-main .order-main .container .order-sidebar .order-menu .exit, .order-main .container .reviews-main .order-sidebar .order-menu .exit, .reviews-main .order-main .container .order-sidebar .order-menu .heart, .order-main .container .reviews-main .order-sidebar .order-menu .heart {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 1.3rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.reviews-main .order-sidebar .order-menu .user-order img, .reviews-main .order-sidebar .order-menu .heart img, .reviews-main .order-sidebar .order-menu .exit img, .reviews-main .order-sidebar .order-menu .settings img, .reviews-main .order-sidebar .order-menu .smile img, .reviews-main .order-sidebar .order-menu .address img, .reviews-main .order-sidebar .order-menu .promo-code img, .reviews-main .order-sidebar .order-menu .smile-sad img, .reviews-main .order-sidebar .order-menu .notifications img, .reviews-main .order-main .container .order-sidebar .order-menu .notifications img, .order-main .container .reviews-main .order-sidebar .order-menu .notifications img, .reviews-main .order-main .container .order-sidebar .order-menu .smile-sad img, .order-main .container .reviews-main .order-sidebar .order-menu .smile-sad img, .reviews-main .order-sidebar .order-menu .cart img, .reviews-main .order-main .container .order-sidebar .order-menu .cart img, .order-main .container .reviews-main .order-sidebar .order-menu .cart img, .reviews-main .order-main .container .order-sidebar .order-menu .promo-code img, .order-main .container .reviews-main .order-sidebar .order-menu .promo-code img, .reviews-main .order-main .container .order-sidebar .order-menu .address img, .order-main .container .reviews-main .order-sidebar .order-menu .address img, .reviews-main .order-main .container .order-sidebar .order-menu .smile img, .order-main .container .reviews-main .order-sidebar .order-menu .smile img, .reviews-main .order-main .container .order-sidebar .order-menu .settings img, .order-main .container .reviews-main .order-sidebar .order-menu .settings img, .reviews-main .order-main .container .order-sidebar .order-menu .exit img, .order-main .container .reviews-main .order-sidebar .order-menu .exit img, .reviews-main .order-main .container .order-sidebar .order-menu .heart img, .order-main .container .reviews-main .order-sidebar .order-menu .heart img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 2rem;
+}
+.reviews-main .order-sidebar .order-menu .user-order .name, .reviews-main .order-sidebar .order-menu .heart .name, .reviews-main .order-sidebar .order-menu .exit .name, .reviews-main .order-sidebar .order-menu .settings .name, .reviews-main .order-sidebar .order-menu .smile .name, .reviews-main .order-sidebar .order-menu .address .name, .reviews-main .order-sidebar .order-menu .promo-code .name, .reviews-main .order-sidebar .order-menu .smile-sad .name, .reviews-main .order-sidebar .order-menu .notifications .name, .reviews-main .order-sidebar .order-menu .cart .name {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: orange;
+}
+.reviews-main .order-sidebar .order-menu .user-order .count, .reviews-main .order-sidebar .order-menu .heart .count, .reviews-main .order-sidebar .order-menu .exit .count, .reviews-main .order-sidebar .order-menu .settings .count, .reviews-main .order-sidebar .order-menu .smile .count, .reviews-main .order-sidebar .order-menu .address .count, .reviews-main .order-sidebar .order-menu .promo-code .count, .reviews-main .order-sidebar .order-menu .smile-sad .count, .reviews-main .order-sidebar .order-menu .notifications .count, .reviews-main .order-sidebar .order-menu .cart .count {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: orange;
+  margin-left: auto;
+  background-color: #f2f5f7;
+  border-radius: 0.5rem;
+  position: absolute;
+  right: 0;
+  padding: 1rem 1.5rem;
+}
+.reviews-main .order-sidebar .order-menu .user-order:hover, .reviews-main .order-sidebar .order-menu .heart:hover, .reviews-main .order-sidebar .order-menu .exit:hover, .reviews-main .order-sidebar .order-menu .settings:hover, .reviews-main .order-sidebar .order-menu .smile:hover, .reviews-main .order-sidebar .order-menu .address:hover, .reviews-main .order-sidebar .order-menu .promo-code:hover, .reviews-main .order-sidebar .order-menu .smile-sad:hover, .reviews-main .order-sidebar .order-menu .notifications:hover, .reviews-main .order-sidebar .order-menu .cart:hover {
+  background-color: #f2f5f7;
+  transition: background-color 0.3s ease-in-out;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .heart, .reviews-main .order-sidebar .order-menu .exit, .reviews-main .order-sidebar .order-menu .settings, .reviews-main .order-sidebar .order-menu .smile, .reviews-main .order-sidebar .order-menu .address, .reviews-main .order-sidebar .order-menu .promo-code, .reviews-main .order-sidebar .order-menu .smile-sad, .reviews-main .order-sidebar .order-menu .notifications, .reviews-main .order-main .container .order-sidebar .order-menu .notifications, .order-main .container .reviews-main .order-sidebar .order-menu .notifications, .reviews-main .order-main .container .order-sidebar .order-menu .smile-sad, .order-main .container .reviews-main .order-sidebar .order-menu .smile-sad, .reviews-main .order-sidebar .order-menu .cart, .reviews-main .order-main .container .order-sidebar .order-menu .cart, .order-main .container .reviews-main .order-sidebar .order-menu .cart, .reviews-main .order-main .container .order-sidebar .order-menu .promo-code, .order-main .container .reviews-main .order-sidebar .order-menu .promo-code, .reviews-main .order-main .container .order-sidebar .order-menu .address, .order-main .container .reviews-main .order-sidebar .order-menu .address, .reviews-main .order-main .container .order-sidebar .order-menu .smile, .order-main .container .reviews-main .order-sidebar .order-menu .smile, .reviews-main .order-main .container .order-sidebar .order-menu .settings, .order-main .container .reviews-main .order-sidebar .order-menu .settings, .reviews-main .order-main .container .order-sidebar .order-menu .exit, .order-main .container .reviews-main .order-sidebar .order-menu .exit {
+  background-color: transparent;
+}
+.reviews-main .order-sidebar .order-menu .heart .name, .reviews-main .order-sidebar .order-menu .exit .name, .reviews-main .order-sidebar .order-menu .settings .name, .reviews-main .order-sidebar .order-menu .smile .name, .reviews-main .order-sidebar .order-menu .address .name, .reviews-main .order-sidebar .order-menu .promo-code .name, .reviews-main .order-sidebar .order-menu .smile-sad .name, .reviews-main .order-sidebar .order-menu .notifications .name, .reviews-main .order-sidebar .order-menu .cart .name {
+  color: #000;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .cart .name {
+  color: orange;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .promo-code, .reviews-main .order-sidebar .order-menu .smile-sad, .reviews-main .order-sidebar .order-menu .notifications, .reviews-main .order-main .container .order-sidebar .order-menu .notifications, .order-main .container .reviews-main .order-sidebar .order-menu .notifications, .reviews-main .order-main .container .order-sidebar .order-menu .smile-sad, .order-main .container .reviews-main .order-sidebar .order-menu .smile-sad {
+  border-bottom: 0.2rem solid #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .review-content {
+  padding-left: 80px;
+}
+.reviews-main .review-content h1 {
+  margin: 0;
+  padding: 0px 0px 30px 0px;
+}
+.reviews-main .review-content .review-by-client {
+  display: flex;
+  gap: 30px;
+  border: 1px solid #dae0e5;
+  border-radius: 5px;
+  padding: 20px;
+}
+.reviews-main .review-content .review-by-client .text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.reviews-main .review-content .review-by-client .text-content h3 {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+.reviews-main .review-content .review-by-client .text-content p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #171f26;
+}
+.reviews-main .review-content .review-by-client .text-content .stars img {
+  padding-right: 6px;
+}
+.reviews-main .review-content .review-by-client .text-content .review-images img {
+  padding-right: 7px;
 }/*# sourceMappingURL=main.css.map */
