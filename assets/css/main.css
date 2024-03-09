@@ -316,7 +316,51 @@ header .container .header {
   transition: font-weight 0.3s ease-in-out;
 }
 
-<<<<<<< HEAD
+.splide__list .splide__slide {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background: rgb(18, 24, 30);
+  background: linear-gradient(90deg, rgb(18, 24, 30) 0%, rgb(52, 60, 67) 75%);
+  color: #fff;
+  padding-right: 13.8rem;
+  height: 32rem;
+}
+.splide__list .splide__slide .splide__slide-left {
+  margin-left: 4rem;
+}
+.splide__list .splide__slide .splide__slide-left .solide__slide-left-top-desc {
+  font-size: 2.4rem;
+  color: #fff;
+  margin-bottom: 12.7rem;
+}
+.splide__list .splide__slide .splide__slide-left .solide__slide-left-heading1 {
+  font-size: 3.6rem;
+  color: #fff;
+}
+.splide__list .splide__slide .splide__slide-left .solide__slide-left-heading2 {
+  font-size: 6rem;
+  color: #fff;
+}
+.splide__list .splide__slide .splide__slide-right {
+  position: relative;
+  height: 32rem;
+}
+.splide__list .splide__slide .splide__slide-right .splide__slide-right-img {
+  margin-top: 5.1rem;
+}
+.splide__list .splide__slide .splide__slide-right .zaytun-hero-lamp-img1 {
+  position: absolute;
+  left: 23rem;
+  bottom: 0rem;
+}
+.splide__list .splide__slide .splide__slide-right .zaytun-hero-lamp-img2 {
+  position: absolute;
+  right: 28rem;
+  bottom: 0rem;
+}
+
 .product-main {
   margin-left: 30px;
   display: block;
@@ -498,7 +542,7 @@ header .container .header {
   background-color: white;
   color: orange;
 }
-.product-main .product-main-about .price h4 {
+.product-main .product-main-about .price h4, .product-main .product-main-about .price .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-header .desc span, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-header .desc .product-main .product-main-about .price span {
   margin-top: 15px;
   font-size: 18px;
   font-weight: bolder;
@@ -546,7 +590,7 @@ header .container .header {
   font-size: 14px;
   margin-top: 20px;
 }
-.product-main .product-main-about .price .box-4 div h4 {
+.product-main .product-main-about .price .box-4 div h4, .product-main .product-main-about .price .box-4 div .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-header .desc span, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-header .desc .product-main .product-main-about .price .box-4 div span {
   font-size: 14px;
   color: gray;
   margin-left: 0px;
@@ -574,7 +618,7 @@ header .container .header {
 .product-main .product-main-by-product div .by-product div h2 {
   font-size: 25px;
 }
-.product-main .product-main-by-product div .by-product div h4 {
+.product-main .product-main-by-product div .by-product div h4, .product-main .product-main-by-product div .by-product div .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-header .desc span, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-header .desc .product-main .product-main-by-product div .by-product div span {
   margin-top: 80px;
   font-size: 14px;
 }
@@ -631,7 +675,7 @@ header .container .header {
   font-size: 28px;
   font-weight: lighter;
 }
-.product-main .product-main-by-product div .house-product .title h4 {
+.product-main .product-main-by-product div .house-product .title h4, .product-main .product-main-by-product div .house-product .title .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-header .desc span, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-header .desc .product-main .product-main-by-product div .house-product .title span {
   font-size: 15px;
   margin-top: 7px;
   font-weight: lighter;
@@ -720,50 +764,6 @@ header .container .header {
 }
 .product-main .prduct-main-reviews div img {
   margin-top: 35px;
-=======
-.splide__list .splide__slide {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-  background: rgb(18, 24, 30);
-  background: linear-gradient(90deg, rgb(18, 24, 30) 0%, rgb(52, 60, 67) 75%);
-  color: #fff;
-  padding-right: 13.8rem;
-  height: 32rem;
-}
-.splide__list .splide__slide .splide__slide-left {
-  margin-left: 4rem;
-}
-.splide__list .splide__slide .splide__slide-left .solide__slide-left-top-desc {
-  font-size: 2.4rem;
-  color: #fff;
-  margin-bottom: 12.7rem;
-}
-.splide__list .splide__slide .splide__slide-left .solide__slide-left-heading1 {
-  font-size: 3.6rem;
-  color: #fff;
-}
-.splide__list .splide__slide .splide__slide-left .solide__slide-left-heading2 {
-  font-size: 6rem;
-  color: #fff;
-}
-.splide__list .splide__slide .splide__slide-right {
-  position: relative;
-  height: 32rem;
-}
-.splide__list .splide__slide .splide__slide-right .splide__slide-right-img {
-  margin-top: 5.1rem;
-}
-.splide__list .splide__slide .splide__slide-right .zaytun-hero-lamp-img1 {
-  position: absolute;
-  left: 23rem;
-  bottom: 0rem;
-}
-.splide__list .splide__slide .splide__slide-right .zaytun-hero-lamp-img2 {
-  position: absolute;
-  right: 28rem;
-  bottom: 0rem;
 }
 
 .login {
@@ -1841,5 +1841,4 @@ main .recommended_wishlist .title span {
 }
 .reviews-main .review-content .review-by-client .text-content .review-images img {
   padding-right: 7px;
->>>>>>> 4b2d2187bc63b94cccce3295244e15145732964b
 }/*# sourceMappingURL=main.css.map */
