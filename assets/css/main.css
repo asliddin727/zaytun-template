@@ -260,4 +260,409 @@ header .container .header {
 .navbar .nav .nav-item .nav-link:hover {
   font-weight: 500;
   transition: font-weight 0.3s ease-in-out;
+}
+
+.product-main {
+  margin-left: 30px;
+  display: block;
+}
+.product-main .product-main-manzil {
+  display: flex;
+}
+.product-main .product-main-manzil a {
+  color: orange;
+  font-size: 14px;
+}
+.product-main .product-main-manzil img {
+  width: 13px;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+.product-main .product-main-product-name {
+  display: block;
+  margin-top: 35px;
+}
+.product-main .product-main-product-name h2 {
+  font-size: 26px;
+  font-family: unset;
+  font-weight: lighter;
+}
+.product-main .product-main-rating {
+  display: flex;
+  margin-top: 20px;
+}
+.product-main .product-main-rating div {
+  display: flex;
+}
+.product-main .product-main-rating div p {
+  color: gray;
+  margin-top: 3px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.product-main .product-main-rating .raiting-in {
+  display: flex;
+  margin-left: 950px;
+}
+.product-main .product-main-rating .raiting-in p {
+  color: orange;
+}
+.product-main .product-main-rating .raiting-in img {
+  margin-left: 20px;
+}
+.product-main .product-main-line {
+  margin-top: 10px;
+}
+.product-main .product-main-line img {
+  width: 1420px;
+}
+.product-main .product-main-about {
+  margin-top: 20px;
+  display: flex;
+}
+.product-main .product-main-about .frame {
+  display: block;
+}
+.product-main .product-main-about .frame img {
+  display: block;
+  margin-top: 15px;
+}
+.product-main .product-main-about .ability {
+  margin-left: 0px;
+}
+.product-main .product-main-about .ability p {
+  font-weight: bold;
+  font-size: 15px;
+}
+.product-main .product-main-about .ability div {
+  display: flex;
+  margin-top: 10px;
+}
+.product-main .product-main-about .ability div p {
+  width: 73px;
+  height: 34px;
+  background-color: yellow;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+.product-main .product-main-about .ability div h6 {
+  width: 73px;
+  height: 34px;
+  background-color: rgb(231, 231, 231);
+  margin-left: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+.product-main .product-main-about .ability div img {
+  margin-right: 10px;
+}
+.product-main .product-main-about .ability .box {
+  display: flex;
+  gap: 100px;
+  margin-top: 25px;
+}
+.product-main .product-main-about .ability .box ul {
+  line-height: 28px;
+}
+.product-main .product-main-about .ability .box ul li {
+  font-size: 14px;
+}
+.product-main .product-main-about .price {
+  display: block;
+  margin-left: 70px;
+}
+.product-main .product-main-about .price .box {
+  width: 330px;
+  height: 236px;
+  border: 1.5px solid rgb(224, 224, 224);
+  border-radius: 5px;
+}
+.product-main .product-main-about .price .box div {
+  display: flex;
+}
+.product-main .product-main-about .price .box div h6 {
+  width: 35px;
+  height: 35px;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: red;
+  margin-left: 50px;
+  margin-top: 30px;
+  border-radius: 10px;
+  color: white;
+}
+.product-main .product-main-about .price .box div strike {
+  margin-left: 10px;
+  margin-top: 40px;
+  font-size: 17px;
+  color: gray;
+}
+.product-main .product-main-about .price .box div h5 {
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+.product-main .product-main-about .price .box div p {
+  color: gray;
+  margin-top: 18px;
+  font-size: 18px;
+  margin-left: 5px;
+}
+.product-main .product-main-about .price .box p {
+  color: gray;
+  margin-left: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.product-main .product-main-about .price .box .hr {
+  margin-left: 50px;
+  height: 1px;
+  width: 260px;
+  background-color: gray;
+  margin-top: 25px;
+}
+.product-main .product-main-about .price .box button {
+  width: 260px;
+  height: 54px;
+  background-color: orange;
+  margin-left: 50px;
+  margin-top: 13px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+}
+.product-main .product-main-about .price .box button:hover {
+  border: 2px solid orange;
+  background-color: white;
+  color: orange;
+}
+.product-main .product-main-about .price h4 {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 20px;
+}
+.product-main .product-main-about .price .box-2 {
+  display: flex;
+  margin-top: 15px;
+}
+.product-main .product-main-about .price .box-2 img {
+  margin-left: 20px;
+}
+.product-main .product-main-about .price .box-2 div {
+  display: block;
+  margin-left: 15px;
+}
+.product-main .product-main-about .price .box-2 div h5 {
+  font-weight: bold;
+  font-size: 12px;
+}
+.product-main .product-main-about .price .box-2 div h5 span {
+  color: orange;
+}
+.product-main .product-main-about .price .box-2 div p {
+  margin-top: 3px;
+}
+.product-main .product-main-about .price .box-4 {
+  width: 330px;
+  height: 90px;
+  border-radius: 5px;
+  border: 2px solid rgb(230, 230, 230);
+  margin-top: 40px;
+  display: flex;
+  margin-left: 50px;
+}
+.product-main .product-main-about .price .box-4 img {
+  margin-top: 3px;
+}
+.product-main .product-main-about .price .box-4 div {
+  display: block;
+  margin-left: 15px;
+}
+.product-main .product-main-about .price .box-4 div h3 {
+  color: orange;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.product-main .product-main-about .price .box-4 div h4 {
+  font-size: 14px;
+  color: gray;
+  margin-left: 0px;
+}
+.product-main .product-main-by-product {
+  display: flex;
+}
+.product-main .product-main-by-product div {
+  display: block;
+}
+.product-main .product-main-by-product div .by-product {
+  width: 1040px;
+  height: 372px;
+  border: 2px solid rgb(195, 194, 194);
+  border-radius: 20px;
+  margin-top: -50px;
+  display: flex;
+}
+.product-main .product-main-by-product div .by-product div {
+  width: 230px;
+  height: 312px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.product-main .product-main-by-product div .by-product div h2 {
+  font-size: 25px;
+}
+.product-main .product-main-by-product div .by-product div h4 {
+  margin-top: 80px;
+  font-size: 14px;
+}
+.product-main .product-main-by-product div .by-product div h3 {
+  font-size: 25px;
+  font-weight: lighter;
+  margin-top: 15px;
+}
+.product-main .product-main-by-product div .by-product div h3 span {
+  color: gray;
+  font-size: 14px;
+}
+.product-main .product-main-by-product div .by-product div button {
+  width: 250px;
+  height: 54px;
+  color: white;
+  border: none;
+  background-color: orange;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 25px;
+}
+.product-main .product-main-by-product div .by-product div button:hover {
+  border: 3px solid orange;
+  color: orange;
+  background-color: white;
+}
+.product-main .product-main-by-product div .by-product ul {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.product-main .product-main-by-product div .by-product ul button {
+  width: 165px;
+  height: 40px;
+  background-color: rgb(253, 237, 240);
+  border-radius: 5px;
+  border: none;
+  color: orange;
+  margin-top: 20px;
+}
+.product-main .product-main-by-product div .by-product ul button:hover {
+  border: 3px solid rgb(253, 237, 240);
+  background-color: white;
+}
+.product-main .product-main-by-product div .house-product {
+  display: block;
+  margin-top: 45px;
+}
+.product-main .product-main-by-product div .house-product .title {
+  display: flex;
+  gap: 700px;
+}
+.product-main .product-main-by-product div .house-product .title h2 {
+  font-size: 28px;
+  font-weight: lighter;
+}
+.product-main .product-main-by-product div .house-product .title h4 {
+  font-size: 15px;
+  margin-top: 7px;
+  font-weight: lighter;
+  color: orange;
+}
+.product-main .product-main-by-product div .house-product div {
+  display: flex;
+}
+.product-main .product-main-by-product div .house-product div .arrow {
+  margin-top: 150px;
+}
+.product-main .product-main-by-product div .house-product div .arrow1 {
+  margin-top: 40px;
+}
+.product-main .product-main-by-product div .house-product div div {
+  display: block;
+  margin-left: 15px;
+}
+.product-main .product-main-by-product div .house-product div div h2 {
+  margin-left: 5px;
+  font-weight: lighter;
+  font-size: 18px;
+}
+.product-main .product-main-by-product div .house-product div div h2 span {
+  color: gray;
+  font-size: 14px;
+}
+.product-main .product-main-by-product div .house-product div div p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.product-main .product-main-by-product div .house-product div div .reyting {
+  margin-top: 10px;
+}
+.product-main .product-main-by-product div .house-product div img {
+  margin-left: 15px;
+}
+.product-main .product-main-by-product div aside {
+  margin-top: 20px;
+}
+.product-main .product-main-by-product div h2 {
+  margin-top: 30px;
+  font-size: 20px;
+}
+.product-main .product-main-by-product div h6 {
+  margin-top: 50px;
+  width: 1060px;
+  height: 150px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.product-main .product-main-by-product .aside img {
+  width: 300px;
+  height: 512px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.product-main .prduct-main-reviews {
+  display: flex;
+}
+.product-main .prduct-main-reviews .infor {
+  display: block;
+}
+.product-main .prduct-main-reviews .infor img {
+  margin-top: 35px;
+  margin-left: -20px;
+}
+.product-main .prduct-main-reviews div {
+  display: block;
+  margin-left: 20px;
+}
+.product-main .prduct-main-reviews div button {
+  width: 330px;
+  height: 54px;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  margin-top: 60px;
+}
+.product-main .prduct-main-reviews div button:hover {
+  border: 3px solid orange;
+  background-color: white;
+  color: orange;
+}
+.product-main .prduct-main-reviews div img {
+  margin-top: 35px;
 }/*# sourceMappingURL=main.css.map */

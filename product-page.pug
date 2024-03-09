@@ -1,0 +1,221 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        // CSS LINK
+        link(rel='stylesheet' href='../assets/css/main.css')
+        // FONTAWESOME
+        link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css')
+        // JS
+        script(defer='' type='text/javascript' src='./assets/script/script.js')
+        title product page
+    body 
+        .container
+            header 
+                include ./components/header.pug
+                include ./components/footer.pug
+            main 
+                .product-main 
+
+                    //- it shows which addresses have been visited so far.
+                    section.product-main-manzil
+                        a(href="#") Электроника
+                        img(src="../assets/images/icons/right-arrow 1.svg", alt="rasm") 
+                        a(href="#") Смартфоны и планшеты
+                        img(src="../assets/images/icons/right-arrow 1.svg", alt="rasm") 
+                        a(href="#") Смартфоны
+                        img(src="../assets/images/icons/right-arrow 1.svg", alt="rasm") 
+                        a(href="#") Samsung
+
+                    //- PRODUCT NAME
+                    section.product-main-product-name
+                        h2 Samsung Galaxy A51 4/64GB
+
+                    //- RATING
+                    section.product-main-rating
+                        div 
+                            img(src="../assets/images/icons/rating.svg", alt="rasm")
+                            p 24 отзыва
+                        div.raiting-in
+                            img(src="../assets/images/icons/heart.svg", alt="icon")
+                            p В избранное
+                            img(src="../assets/images/icons/signal.svg", alt="icon")
+                            p Сравнить
+                            img(src="../assets/images/icons/arrows-expand-up-right.svg", alt="icon")
+                            p Поделиться
+                    //- LINE
+                    section.product-main-line
+                        img(src="../assets/images/image/Line 9.svg", alt="rasm")
+                    
+                    //- ABAUT SMARTFON
+                    section.product-main-about
+                        //- TYPES OF SMARTPHONE USE
+                        div.frame 
+                            img(src="../assets/images/image/Frame 39.svg", alt="rasm")
+                            img(src="../assets/images/image/Frame 40.svg", alt="rasm")
+                            img(src="../assets/images/image/Frame 41.svg", alt="rasm")
+                            img(src="../assets/images/image/Frame 42.svg", alt="rasm")
+                            img(src="../assets/images/image/Frame 43.svg", alt="rasm")
+                        //- SMARTFON IMG
+                        div 
+                            img(src="../assets/images/image/Frame 38.svg", alt="rasm")
+                        //- ABILITY
+                        div.ability 
+                            p Объем памяти
+                            div 
+                                p 4/64GB
+                                h6 6/128GB
+                            br 
+                            p Цвет
+                            div 
+                                img(src="../assets/images/image/white - selected.svg", alt="rasm")
+                                img(src="../assets/images/image/black.svg", alt="rasm")
+                                img(src="../assets/images/image/blue.svg", alt="rasm")
+                            .box 
+                                ul 
+                                    li Платформа:
+                                    li Кол-во SIM карт:
+                                    li Диагональ экрана:
+                                    li Камера:
+                                    li Аккумулятор
+                                    li Тип матрицы:
+                                    li Габариты:
+                                    li Процессор:
+                                    li Гарантия:
+                                ul 
+                                    li Android 10
+                                    li 2 SIM + SD Card
+                                    li 6.5”
+                                    li 48МП+8МП+5МП+5МП
+                                    li 4 000 mAh
+                                    li SUPER AMOLED
+                                    li ШхВхТ 142х79.0х13.5 мм, вес 140 г
+                                    li Exynos 420, 8 ядер
+                                    li 1 год 
+                        div.price 
+                            .box 
+                                div
+                                    h6 -6% 
+                                    strike 2 720 000
+                                div 
+                                    h5 16 843 000
+                                    p сум
+                                p Сезонная скидка
+                                .hr
+                                button Добавить в корзину
+                            h4 Доставка
+                            div.box-2
+                                img(src="../assets/images/image/fast-delivery 1.svg", alt="rasm")
+                                div 
+                                    h5 Доставка курьером, #[span Ташкент]
+                                    p Бесплатно
+                            div.box-2
+                                img(src="../assets/images/icons/box.svg", alt="rasm")
+                                div 
+                                    h5 Самовывоз, #[span Точки выдачи]
+                                    p Бесплатно
+                            div.box-2
+                                img(src="../assets/images/icons/credit-card.svg", alt="rasm")
+                                div 
+                                    h5 Оплата. Наличными, картой, онлайн
+                                    p Payme, Click
+                            .box-4 
+                                img(src="../assets/images/image/samsung.svg", alt="samsunf img")
+                                div 
+                                    h3 Перейти к бренду
+                                    h4 1 023 товаров    
+                    section.product-main-by-product
+                        div
+                            div.by-product
+                                div 
+                                    h2 С этим товаром #[br] покупают в #[br] комплекте
+                                    h4 Общая стоимость товаров
+                                    h3 16 843 000 #[span сум]
+                                    button Добавить все в корзину
+                                ul 
+                                    li 
+                                        img(src="../assets/images/image/product mini.svg", alt="rasm")
+                                        button В корзину
+                                ul 
+                                    li 
+                                        img(src="../assets/images/image/product mini (1).svg", alt="rasm")
+                                        button В корзину
+                                ul 
+                                    li 
+                                        img(src="../assets/images/image/product mini (2).svg", alt="rasm")
+                                        button В корзину
+                                ul 
+                                    li 
+                                        img(src="../assets/images/image/product mini (3).svg", alt="rasm")
+                                        button В корзину
+                            div.house-product
+                                div.title 
+                                    h2 Похожие товары
+                                    h4 Посмотреть все
+                                div 
+                                    img(src="../assets/images/image/arrow.svg", alt="").arrow
+                                    div 
+                                        img(src="../assets/images/image/noutbook.svg", alt="rasm")
+                                        h2 7 890 000 #[span сум]
+                                        p Asus VivoBook 15” Intel Core i5 #[br] 16/256GB 1TB 
+                                        img(src="../assets/images/icons/rating.svg", alt="rasm").reyting
+                                    img(src="../assets/images/image/product.svg", alt="rasm")
+                                    div 
+                                        img(src="../assets/images/image/Mask Group.svg", alt="rasm")
+                                        h2 6 980 000 #[span сум]
+                                        p Asus VivoBook 13” Intel Core i5 #[br] 8/128GB 1TB 
+                                        img(src="../assets/images/icons/rating.svg", alt="rasm").reyting
+                                    div 
+                                        img(src="../assets/images/image/Mask Group (1).svg", alt="rasm")
+                                        h2 12 118 000 #[span сум]
+                                        p iPad Pro 12.9” Wi-Fi + Cellular #[br] 256 GB - Space Gray 
+                                        img(src="../assets/images/icons/rating.svg", alt="rasm").reyting
+                            aside 
+                                img(src="../assets/images/image/banner.svg", alt="rasm")
+
+                            //- Рекомендуем
+                            div.house-product
+                                div.title 
+                                    h2 Рекомендуем
+                                    h4 Посмотреть все
+                                div 
+                                    div 
+                                        img(src="../assets/images/image/Huawei.svg", alt="rasm")
+                                        h2 6 820 000 #[span сум]
+                                        p Huawei P40 PRO 8/128GB, #[br] белый 
+                                        img(src="../assets/images/icons/rating.svg", alt="rasm").reyting
+                                    img(src="../assets/images/image/product.svg", alt="rasm")
+                                    div 
+                                        img(src="../assets/images/image/Ssamsung.svg", alt="rasm")
+                                        h2 9 824 000 #[span сум]
+                                        p Samsung Galaxy S20 8/128GB 
+                                        img(src="../assets/images/icons/rating.svg", alt="rasm").reyting
+                                    div 
+                                        img(src="../assets/images/image/xiome.svg", alt="rasm")
+                                        h2 6 118 000 #[span сум]
+                                        p Xiaomi Mi 9T, 8/128GB 
+                                        img(src="../assets/images/icons/rating.svg", alt="rasm").reyting
+
+                                    img(src="../assets/images/image/arrow (1).svg", alt="").arrow1
+
+                            //- Описание товара
+                            h2 Описание товара
+                            h6 Имеется спорная точка зрения, гласящая примерно следующее: явные признаки победы институционализации неоднозначны и будут функционально разнесены на независимые элементы. А ещё представители современных социальных резервов, вне зависимости от их уровня, должны быть указаны как претенденты на роль ключевых факторов. Как принято считать, сделанные на базе интернет-аналитики выводы представлены в исключительно положительном свете. Как принято считать, реплицированные с зарубежных источников, современные исследования формируют глобальную экономическую сеть и при этом - превращены в посмешище, хотя само их существование приносит несомненную пользу обществу. Современные технологии достигли такого уровня, что современная методология разработки обеспечивает широкому кругу (специалистов) участие в формировании экспериментов, поражающих по своей масштабности и грандиозности.
+
+                            //- charracteristic
+                            img(src="../assets/images/image/characteristic.svg", alt="")
+                        //- SECONDARY RIGHT SIDE
+                        div.aside 
+                            img(src="../assets/images/image/ad.svg", alt="rasm")
+
+                    //- NEW SECTION
+                    section.prduct-main-reviews 
+                        div.infor
+                            img(src="../assets/images/image/review.svg", alt="rasm") 
+                            br
+                            br 
+                            img(src="../assets/images/image/review (1).svg", alt="rasm") 
+                        div
+                            button Оставить отзыв 
+                            img(src="../assets/images/image/reviews info.svg", alt="rasm")

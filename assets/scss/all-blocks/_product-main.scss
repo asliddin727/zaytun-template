@@ -1,0 +1,420 @@
+.product-main {
+    margin-left: 30px;
+    display: block;
+        // LOCATION
+        .product-main-manzil {
+            display: flex;
+                a {
+                    color: orange;
+                    font-size: 14px;
+                }
+                img {
+                    width: 13px;
+                    margin-top: 2px;
+                    margin-left: 5px;
+                }
+        }
+
+        .product-main-product-name {
+            display: block;
+            margin-top: 35px;
+                h2 {
+                    font-size: 26px;
+                    font-family:unset;
+                    font-weight: lighter;
+                }
+        }
+        // RAITING INFORMATION
+        .product-main-rating {
+            display: flex;
+            margin-top: 20px;
+                div {
+                    display: flex;
+                        p {
+                            color: gray;
+                            margin-top: 3px;
+                            margin-left: 10px;
+                            font-weight: bold;
+                        }
+                }
+                .raiting-in {
+                    display: flex;
+                    margin-left: 950px;
+                        p {
+                            color: orange;
+                        }
+                        img {
+                            margin-left: 20px;
+                        }
+                }
+        }
+        // IMG LINE
+        .product-main-line {
+            margin-top: 10px;
+                img {
+                    width: 1420px;
+                }
+        }
+        // ABAUT SMARTFON INFORMATION
+        .product-main-about {
+            margin-top: 20px;
+            display: flex;
+                .frame {
+                    display: block;
+                        img {
+                            display: block;
+                            margin-top: 15px;
+                        }
+                }
+                .ability {
+                    margin-left: 0px;
+                        p {
+                            font-weight: bold;
+                            font-size: 15px;
+                        }
+                        div {
+                            display: flex;
+                            margin-top: 10px;
+                                p {
+                                    width: 73px;
+                                    height: 34px;
+                                    background-color: yellow;
+                                    text-align: center;
+                                    padding-top: 10px;
+                                    border-radius: 5px;
+                                }
+                                h6 {
+                                    width: 73px;
+                                    height: 34px;
+                                    background-color: rgb(231, 231, 231);
+                                    margin-left: 10px;
+                                    text-align: center;
+                                    font-size: 15px;
+                                    font-weight: bold;
+                                    padding-top: 10px;
+                                    border-radius: 5px;
+                                }
+                                img {
+                                    margin-right: 10px;
+                                }
+                        }
+                        .box {
+                            display: flex;
+                            gap: 100px;
+                            margin-top: 25px;
+                                ul {
+                                    line-height: 28px;
+                                        li {
+                                            font-size: 14px;
+                                        }
+                                }
+                        }
+                }
+
+                .price {
+                    display: block;
+                    margin-left: 70px;
+                        .box {
+                            width: 330px;
+                            height: 236px;
+                            border: 1.5px solid rgb(224, 224, 224);
+                            border-radius: 5px;
+                                div {
+                                    display: flex;
+                                        h6 {
+                                            width: 35px;
+                                            height: 35px;
+                                            font-size: 14px;
+                                            text-align: center;
+                                            padding-top: 10px;
+                                            background-color: red;
+                                            margin-left: 50px;
+                                            margin-top: 30px;
+                                            border-radius: 10px;
+                                            color: white;
+                                                
+                                        }
+                                        strike {
+                                            margin-left: 10px;
+                                            margin-top: 40px;
+                                            font-size: 17px;
+                                            color: gray;
+                                        }
+                                        h5 {
+                                            margin-left: 50px;
+                                            margin-top: 10px;
+                                            font-size: 25px;
+                                        }
+                                        p {
+                                            color: gray;
+                                            margin-top: 18px;
+                                            font-size: 18px;
+                                            margin-left: 5px;
+                                        }
+                                }
+                                p {
+                                    color: gray;
+                                    margin-left: 50px;
+                                    font-size: 16px;
+                                    font-weight: bold;
+                                    margin-top: 10px;
+                                }
+                                .hr {
+                                    margin-left: 50px;
+                                    height: 1px;
+                                    width: 260px;
+                                    background-color: gray;
+                                    margin-top: 25px;
+                                }
+                                button {
+                                    width: 260px;
+                                    height: 54px;
+                                    background-color: orange;
+                                    margin-left: 50px;
+                                    margin-top: 13px;
+                                    border: none;
+                                    border-radius: 5px;
+                                    color: white;
+                                    font-size: 15px;
+                                }
+                                button:hover {
+                                    border: 2px solid orange;
+                                    background-color: white;
+                                    color: orange;
+                                }
+                        }
+
+                        h4 {
+                            margin-top: 15px;
+                            font-size: 18px;
+                            font-weight: bolder;
+                            margin-left: 20px;
+                        }
+                        .box-2 {
+                            display: flex;
+                            margin-top: 15px;
+                                img {
+                                    margin-left: 20px;
+                                }
+                                div {
+                                    display: block;
+                                    margin-left: 15px;
+                                        h5 {
+                                            font-weight: bold;
+                                            font-size: 12px;
+                                                span {
+                                                    color: orange;
+                                                }
+                                        }
+                                        p {
+                                            margin-top: 3px;
+                                        }
+                                }
+                        }
+                        .box-4 {
+                            width: 330px;
+                            height: 90px;
+                            border-radius: 5px;
+                            border: 2px solid rgb(230, 230, 230);
+                            margin-top: 40px;
+                            display: flex;
+                            margin-left: 50px;
+                                img {
+                                    margin-top: 3px;
+                                }
+                                div {
+                                    display: block;
+                                    margin-left: 15px;
+                                        h3 {
+                                            color: orange;
+                                            font-size: 14px;
+                                            margin-top: 20px;
+                                        }
+                                        h4 {
+                                            font-size: 14px;
+                                            color: gray;
+                                            margin-left: 0px;
+                                        }
+                                }
+                        }
+                }
+
+        }
+        // BY- PRODUCT
+        .product-main-by-product {
+            display: flex;
+                div {
+                    display: block;
+                        .by-product {
+                            width: 1040px;
+                            height: 372px;
+                            border: 2px solid rgb(195, 194, 194);
+                            border-radius: 20px;
+                            margin-top: -50px;
+                            display: flex;
+                                div {
+                                    width: 230px;
+                                    height: 312px;
+                                    margin-left: 20px;
+                                    margin-top: 30px;
+                                        h2 {
+                                            font-size: 25px;
+                                        }
+                                        h4 {
+                                            margin-top: 80px;
+                                            font-size: 14px;
+                                        }
+                                        h3 {
+                                            font-size: 25px;
+                                            font-weight: lighter;
+                                            margin-top: 15px;
+                                                span {
+                                                    color: gray;
+                                                    font-size: 14px;
+                                                }
+                                        }
+                                        button {
+                                            width: 250px;
+                                            height: 54px;
+                                            color: white;
+                                            border: none;
+                                            background-color: orange;
+                                            border-radius: 5px;
+                                            font-size: 16px;
+                                            margin-top: 25px;
+                                            
+                                        }
+                                        button:hover {
+                                            border: 3px solid orange;
+                                            color: orange;
+                                            background-color: white;
+                                        }
+                                }
+                                ul {
+                                    margin-left: 30px;
+                                    margin-top: 30px;
+                                        button {
+                                            width: 165px;
+                                            height: 40px;
+                                            background-color: rgb(253, 237, 240);
+                                            border-radius: 5px;
+                                            border: none;
+                                            color: orange;
+                                            margin-top: 20px;
+                                        }
+                                        button:hover {
+                                            border: 3px solid rgb(253, 237, 240);
+                                            background-color: white;
+                                        }
+                                }
+                        }
+                        .house-product {
+                            display: block;
+                            margin-top: 45px;
+                                .title {
+                                    display: flex;
+                                    gap: 700px;
+                                        h2 {
+                                            font-size: 28px;
+                                            font-weight: lighter;
+                                        }
+                                        h4 {
+                                            font-size: 15px;
+                                            margin-top: 7px;
+                                            font-weight: lighter;
+                                            color: orange;
+                                        }
+                                }
+                                div {
+                                    display: flex;
+                                        .arrow {
+                                            margin-top: 150px;
+                                        }
+                                        .arrow1 {
+                                            margin-top: 40px;
+                                        }
+                                        div {
+                                            display: block;
+                                            margin-left: 15px;
+                                                h2 {
+                                                    margin-left: 5px;
+                                                    font-weight: lighter;
+                                                    font-size: 18px;
+                                                        span {
+                                                            color: gray;
+                                                            font-size: 14px;
+                                                        }
+                                                }
+                                                p {
+                                                    font-size: 14px;
+                                                    margin-top: 10px;
+                                                }
+                                                .reyting {
+                                                    margin-top: 10px;
+                                                }
+
+                                        }
+                                        img {
+                                            margin-left: 15px;
+                                        }
+                                }
+                                
+                        }
+                        aside {
+                            margin-top: 20px;
+                        }
+                        h2 {
+                            margin-top: 30px;
+                            font-size: 20px;
+                        }
+                        h6 {
+                            margin-top: 50px;
+                            width: 1060px;
+                            height: 150px;
+                            font-size: 15px;
+                            font-weight: lighter;
+                        }
+                }
+                .aside {
+                        img {
+                            width: 300px;
+                            height: 512px;
+                            margin-left: 10px;
+                            margin-top: 20px;
+                        }
+                }
+                
+        }
+        .prduct-main-reviews {
+            display: flex;
+                .infor {
+                    display: block;
+                        img {
+                            margin-top: 35px;
+                            margin-left: -20px;
+                        }
+                }
+                div {
+                    display: block;
+                    margin-left: 20px;
+                        button {
+                            width: 330px;
+                            height: 54px;
+                            background-color: orange;
+                            border: none;
+                            border-radius: 5px;
+                            color: white;
+                            font-size: 16px;
+                            margin-top: 60px;
+                        } 
+                        button:hover {
+                            border: 3px solid orange;
+                            background-color: white;
+                            color: orange;
+                        }
+                        img {
+                            margin-top: 35px;
+                        }
+                }
+        }
+}
