@@ -11,6 +11,56 @@
   margin: 0 auto;
 }
 
+.login-submit-btn {
+  width: 30rem;
+  height: 5.4rem;
+  border-radius: 0.5rem;
+  background-color: #000;
+  font-size: 1.4rem;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 3rem;
+  transition: all 0.3s ease-in;
+}
+
+.login-submit-btn:hover {
+  background-color: transparent;
+  border: 0.2rem solid #000;
+  color: #000;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login-register-btn {
+  width: 30rem;
+  height: 5.4rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  border: 0.1rem solid #DAE0E5;
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: #000;
+  transition: all 0.3s ease-in;
+}
+
+.login-register-btn:hover {
+  border: 0.2rem solid #000;
+  transition: all 0.3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-weight: bold;
+}
+
+.btn_wishlist {
+  width: 270px;
+  height: 54px;
+  border-radius: 5px;
+  background-color: #ffae00;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
 /* HEADER START */
 /* NAVBAR START */
 /* NAVBAR END */
@@ -128,17 +178,18 @@ header .container .header {
   color: #FFAE00;
 }
 
-.heart {
+.heart, .reviews-main .order-sidebar .order-menu .exit, .reviews-main .order-sidebar .order-menu .settings, .reviews-main .order-sidebar .order-menu .smile, .reviews-main .order-sidebar .order-menu .address, .reviews-main .order-sidebar .order-menu .promo-code, .reviews-main .order-sidebar .order-menu .smile-sad, .reviews-main .order-sidebar .order-menu .notifications, .reviews-main .order-sidebar .order-menu .cart, .order-main .container .order-sidebar .order-menu .exit, .order-main .container .order-sidebar .order-menu .settings, .order-main .container .order-sidebar .order-menu .smile, .order-main .container .order-sidebar .order-menu .address, .order-main .container .order-sidebar .order-menu .promo-code, .order-main .container .order-sidebar .order-menu .smile-sad, .order-main .container .order-sidebar .order-menu .notifications, .order-main .container .order-sidebar .order-menu .cart {
   display: flex;
   align-items: center;
   cursor: pointer;
 }
-.heart .desc {
+.heart .desc, .reviews-main .order-sidebar .order-menu .exit .desc, .reviews-main .order-sidebar .order-menu .settings .desc, .reviews-main .order-sidebar .order-menu .smile .desc, .reviews-main .order-sidebar .order-menu .address .desc, .reviews-main .order-sidebar .order-menu .promo-code .desc, .reviews-main .order-sidebar .order-menu .smile-sad .desc, .reviews-main .order-sidebar .order-menu .notifications .desc, .reviews-main .order-sidebar .order-menu .cart .desc, .order-main .container .order-sidebar .order-menu .exit .desc, .order-main .container .order-sidebar .order-menu .settings .desc, .order-main .container .order-sidebar .order-menu .smile .desc, .order-main .container .order-sidebar .order-menu .address .desc, .order-main .container .order-sidebar .order-menu .promo-code .desc, .order-main .container .order-sidebar .order-menu .smile-sad .desc, .order-main .container .order-sidebar .order-menu .notifications .desc, .order-main .container .order-sidebar .order-menu .cart .desc {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  color: black;
 }
-.heart i {
+.heart i, .reviews-main .order-sidebar .order-menu .exit i, .reviews-main .order-sidebar .order-menu .settings i, .reviews-main .order-sidebar .order-menu .smile i, .reviews-main .order-sidebar .order-menu .address i, .reviews-main .order-sidebar .order-menu .promo-code i, .reviews-main .order-sidebar .order-menu .smile-sad i, .reviews-main .order-sidebar .order-menu .notifications i, .reviews-main .order-sidebar .order-menu .cart i, .order-main .container .order-sidebar .order-menu .exit i, .order-main .container .order-sidebar .order-menu .settings i, .order-main .container .order-sidebar .order-menu .smile i, .order-main .container .order-sidebar .order-menu .address i, .order-main .container .order-sidebar .order-menu .promo-code i, .order-main .container .order-sidebar .order-menu .smile-sad i, .order-main .container .order-sidebar .order-menu .notifications i, .order-main .container .order-sidebar .order-menu .cart i {
   position: relative;
   display: flex;
   align-items: center;
@@ -151,7 +202,7 @@ header .container .header {
   background-color: #FFF45F;
   margin-right: 1rem;
 }
-.heart i::after {
+.heart i::after, .reviews-main .order-sidebar .order-menu .exit i::after, .reviews-main .order-sidebar .order-menu .settings i::after, .reviews-main .order-sidebar .order-menu .smile i::after, .reviews-main .order-sidebar .order-menu .address i::after, .reviews-main .order-sidebar .order-menu .promo-code i::after, .reviews-main .order-sidebar .order-menu .smile-sad i::after, .reviews-main .order-sidebar .order-menu .notifications i::after, .reviews-main .order-sidebar .order-menu .cart i::after, .order-main .container .order-sidebar .order-menu .exit i::after, .order-main .container .order-sidebar .order-menu .settings i::after, .order-main .container .order-sidebar .order-menu .smile i::after, .order-main .container .order-sidebar .order-menu .address i::after, .order-main .container .order-sidebar .order-menu .promo-code i::after, .order-main .container .order-sidebar .order-menu .smile-sad i::after, .order-main .container .order-sidebar .order-menu .notifications i::after, .order-main .container .order-sidebar .order-menu .cart i::after {
   position: absolute;
   content: "";
   width: 1rem;
@@ -171,6 +222,7 @@ header .container .header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  color: black;
 }
 .cart i {
   position: relative;
@@ -184,6 +236,7 @@ header .container .header {
   padding: 2rem;
   background-color: #FFF45F;
   margin-right: 1rem;
+  color: black;
 }
 .cart i::after {
   position: absolute;
@@ -205,6 +258,7 @@ header .container .header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  color: black;
 }
 .profile i {
   position: relative;
@@ -262,6 +316,7 @@ header .container .header {
   transition: font-weight 0.3s ease-in-out;
 }
 
+<<<<<<< HEAD
 .product-main {
   margin-left: 30px;
   display: block;
@@ -665,4 +720,1126 @@ header .container .header {
 }
 .product-main .prduct-main-reviews div img {
   margin-top: 35px;
+=======
+.splide__list .splide__slide {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background: rgb(18, 24, 30);
+  background: linear-gradient(90deg, rgb(18, 24, 30) 0%, rgb(52, 60, 67) 75%);
+  color: #fff;
+  padding-right: 13.8rem;
+  height: 32rem;
+}
+.splide__list .splide__slide .splide__slide-left {
+  margin-left: 4rem;
+}
+.splide__list .splide__slide .splide__slide-left .solide__slide-left-top-desc {
+  font-size: 2.4rem;
+  color: #fff;
+  margin-bottom: 12.7rem;
+}
+.splide__list .splide__slide .splide__slide-left .solide__slide-left-heading1 {
+  font-size: 3.6rem;
+  color: #fff;
+}
+.splide__list .splide__slide .splide__slide-left .solide__slide-left-heading2 {
+  font-size: 6rem;
+  color: #fff;
+}
+.splide__list .splide__slide .splide__slide-right {
+  position: relative;
+  height: 32rem;
+}
+.splide__list .splide__slide .splide__slide-right .splide__slide-right-img {
+  margin-top: 5.1rem;
+}
+.splide__list .splide__slide .splide__slide-right .zaytun-hero-lamp-img1 {
+  position: absolute;
+  left: 23rem;
+  bottom: 0rem;
+}
+.splide__list .splide__slide .splide__slide-right .zaytun-hero-lamp-img2 {
+  position: absolute;
+  right: 28rem;
+  bottom: 0rem;
+}
+
+.login {
+  width: 144rem;
+  margin: 0 auto;
+  height: 100vh;
+}
+.login .login--wrapper {
+  padding-bottom: 4rem;
+}
+.login .login--wrapper .login-top {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+}
+.login .login--wrapper .login-top .login-lang-ru {
+  font-size: 1.4rem;
+  color: #DAE0E5;
+}
+.login .login--wrapper .login-top .login-lang-ru .login-lang-uz {
+  font-size: 1.4rem;
+  color: #000;
+}
+.login .login--wrapper .login-top .login-close-icon {
+  cursor: pointer;
+}
+.login .login--wrapper .login-form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login .login--wrapper .login-form-wrapper .login-form {
+  width: 30rem;
+}
+.login .login--wrapper .login-form-wrapper .login-form .login-logo {
+  width: 20.8rem;
+  height: 3.5rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5.6rem;
+}
+.login .login--wrapper .login-form-wrapper .login-form .login--heading {
+  font-size: 2.4rem;
+  color: #000;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.login .login--wrapper .login-form-wrapper .login-form .login--desc {
+  font-size: 1.4rem;
+  color: #8E969E;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+.login .login--wrapper .login-form-wrapper .login-form .login-tel-input {
+  width: 30rem;
+  height: 5.4rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #000;
+  background-color: transparent;
+  padding-left: 2rem;
+  font-size: 1.4rem;
+  color: #171F26;
+  margin-bottom: 2rem;
+}
+.login .login--wrapper .login-form-wrapper .login-form .login-password-input {
+  width: 30rem;
+  height: 5.4rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  border: 0.1rem solid #DAE0E5;
+  padding-left: 2rem;
+  margin-bottom: 3rem;
+}
+.login .login--wrapper .login-form-wrapper .login-form .login-fogot-your-password {
+  font-size: 1.4rem;
+  color: #171F26 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2.8rem;
+  transition: all 0.3s ease-in;
+}
+.login .login--wrapper .login-form-wrapper .login-form .login-fogot-your-password:hover {
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+.login .login--wrapper .login-form-wrapper .login-form hr {
+  margin-bottom: 3rem;
+}
+.login .login--wrapper .login-bottom-desc {
+  text-align: center;
+  margin-top: 17.4rem;
+  margin-bottom: 4rem;
+  font-size: 1.4rem;
+  color: #8E969E;
+}
+
+.order-main .container {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+}
+.order-main .container .order-sidebar {
+  position: relative;
+  width: 34rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex;
+  gap: 6rem;
+}
+.order-main .container .order-sidebar .username-register-date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.order-main .container .order-sidebar .username-register-date .username {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #000;
+}
+.order-main .container .order-sidebar .username-register-date .register-date {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #E5E5E5;
+}
+.order-main .container .order-sidebar .order-menu {
+  position: relative;
+  width: 34rem;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.order-main .container .order-sidebar .order-menu .user-order, .order-main .container .order-sidebar .order-menu .heart, .order-main .container .order-sidebar .order-menu .exit, .order-main .container .order-sidebar .order-menu .settings, .order-main .container .order-sidebar .order-menu .smile, .order-main .container .order-sidebar .order-menu .address, .order-main .container .order-sidebar .order-menu .promo-code, .order-main .container .order-sidebar .order-menu .smile-sad, .order-main .container .order-sidebar .order-menu .notifications, .order-main .container .order-sidebar .order-menu .cart {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 1.3rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.order-main .container .order-sidebar .order-menu .user-order img, .order-main .container .order-sidebar .order-menu .heart img, .order-main .container .order-sidebar .order-menu .exit img, .order-main .container .order-sidebar .order-menu .settings img, .order-main .container .order-sidebar .order-menu .smile img, .order-main .container .order-sidebar .order-menu .address img, .order-main .container .order-sidebar .order-menu .promo-code img, .order-main .container .order-sidebar .order-menu .smile-sad img, .order-main .container .order-sidebar .order-menu .notifications img, .order-main .container .order-sidebar .order-menu .cart img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 2rem;
+}
+.order-main .container .order-sidebar .order-menu .user-order .name, .order-main .container .order-sidebar .order-menu .heart .name, .order-main .container .order-sidebar .order-menu .exit .name, .order-main .container .order-sidebar .order-menu .settings .name, .order-main .container .order-sidebar .order-menu .smile .name, .order-main .container .order-sidebar .order-menu .address .name, .order-main .container .order-sidebar .order-menu .promo-code .name, .order-main .container .order-sidebar .order-menu .smile-sad .name, .order-main .container .order-sidebar .order-menu .notifications .name, .order-main .container .order-sidebar .order-menu .cart .name {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: orange;
+}
+.order-main .container .order-sidebar .order-menu .user-order .count, .order-main .container .order-sidebar .order-menu .heart .count, .order-main .container .order-sidebar .order-menu .exit .count, .order-main .container .order-sidebar .order-menu .settings .count, .order-main .container .order-sidebar .order-menu .smile .count, .order-main .container .order-sidebar .order-menu .address .count, .order-main .container .order-sidebar .order-menu .promo-code .count, .order-main .container .order-sidebar .order-menu .smile-sad .count, .order-main .container .order-sidebar .order-menu .notifications .count, .order-main .container .order-sidebar .order-menu .cart .count {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: orange;
+  margin-left: auto;
+  background-color: #F2F5F7;
+  border-radius: 0.5rem;
+  position: absolute;
+  right: 0;
+  padding: 1rem 1.5rem;
+}
+.order-main .container .order-sidebar .order-menu .user-order:hover, .order-main .container .order-sidebar .order-menu .heart:hover, .order-main .container .order-sidebar .order-menu .exit:hover, .order-main .container .order-sidebar .order-menu .settings:hover, .order-main .container .order-sidebar .order-menu .smile:hover, .order-main .container .order-sidebar .order-menu .address:hover, .order-main .container .order-sidebar .order-menu .promo-code:hover, .order-main .container .order-sidebar .order-menu .smile-sad:hover, .order-main .container .order-sidebar .order-menu .notifications:hover, .order-main .container .order-sidebar .order-menu .cart:hover {
+  background-color: #F2F5F7;
+  transition: background-color 0.3s ease-in-out;
+}
+.order-main .container .order-sidebar .order-menu .active {
+  background-color: #F2F5F7;
+}
+.order-main .container .order-sidebar .order-menu .heart, .order-main .container .order-sidebar .order-menu .exit, .order-main .container .order-sidebar .order-menu .settings, .order-main .container .order-sidebar .order-menu .smile, .order-main .container .order-sidebar .order-menu .address, .order-main .container .order-sidebar .order-menu .promo-code, .order-main .container .order-sidebar .order-menu .smile-sad, .order-main .container .order-sidebar .order-menu .notifications, .order-main .container .order-sidebar .order-menu .cart {
+  background-color: transparent;
+}
+.order-main .container .order-sidebar .order-menu .heart .name, .order-main .container .order-sidebar .order-menu .exit .name, .order-main .container .order-sidebar .order-menu .settings .name, .order-main .container .order-sidebar .order-menu .smile .name, .order-main .container .order-sidebar .order-menu .address .name, .order-main .container .order-sidebar .order-menu .promo-code .name, .order-main .container .order-sidebar .order-menu .smile-sad .name, .order-main .container .order-sidebar .order-menu .notifications .name, .order-main .container .order-sidebar .order-menu .cart .name {
+  color: #000;
+}
+.order-main .container .order-sidebar .order-menu .active {
+  background-color: #F2F5F7;
+}
+.order-main .container .order-sidebar .order-menu .cart .name {
+  color: orange;
+}
+.order-main .container .order-sidebar .order-menu .active {
+  background-color: #F2F5F7;
+}
+.order-main .container .order-sidebar .order-menu .promo-code, .order-main .container .order-sidebar .order-menu .smile-sad, .order-main .container .order-sidebar .order-menu .notifications {
+  border-bottom: 0.2rem solid #F2F5F7;
+}
+.order-main .container .order-sidebar .order-menu .active {
+  background-color: #F2F5F7;
+}
+.order-main .container .order-sidebar .order-menu .active {
+  background-color: #F2F5F7;
+}
+.order-main .container .order-sidebar .order-menu .active {
+  background-color: #F2F5F7;
+}
+.order-main .container .order-sidebar .order-menu .active {
+  background-color: #F2F5F7;
+}
+.order-main .container .order-sidebar .order-menu .active {
+  background-color: #F2F5F7;
+}
+.order-main .container .order-sidebar .order-menu .active {
+  background-color: #F2F5F7;
+}
+.order-main .container .order-sidebar .order-menu .active {
+  background-color: #F2F5F7;
+}
+.order-main .container .order-sidebar .order-menu .active {
+  background-color: #F2F5F7;
+}
+.order-main .container .order-list {
+  position: relative;
+  width: 100%;
+}
+.order-main .container .order-list .my-order-title {
+  display: none;
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 3.6rem;
+}
+.order-main .container .order-list .my-order .order-types {
+  display: none;
+  align-items: center;
+  gap: 3rem;
+  border-bottom: 0.1rem solid gray;
+  margin-bottom: 3rem;
+}
+.order-main .container .order-list .my-order .order-types .item {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: gray;
+  padding-bottom: 2rem;
+  cursor: pointer;
+}
+.order-main .container .order-list .my-order .order-types .item .type {
+  margin-right: 2rem;
+}
+.order-main .container .order-list .my-order .order-types .item .count {
+  color: gray;
+}
+.order-main .container .order-list .my-order .order-types .item:hover {
+  color: orange;
+  border-bottom: 0.2rem solid orange;
+  padding-bottom: 2rem;
+}
+.order-main .container .order-list .my-order .order-types .active {
+  color: orange;
+  border-bottom: 0.2rem solid orange;
+  padding-bottom: 2rem;
+}
+.order-main .container .order-list .my-order .my-order-container {
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 6.6rem;
+  gap: 1rem;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item {
+  width: 100%;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 0.1rem solid gray;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.2rem;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-header {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 0.1rem solid gray;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-header .order-number {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-right: 3rem;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-header .order-number .name {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: gray;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-header .order-number .order-id {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: orange;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-header .status {
+  background-color: gray;
+  font-size: 1.4rem;
+  font-weight: 400;
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem;
+  color: #fff;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-header .total-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+  margin-left: auto;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-header .total-price .name {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: gray;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-header .total-price .price {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #000;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .receipt, .order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info .datetime, .order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info .payment-type, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info .my-order-container .order-item .order-link .order-item-main .order-datetime .datetime, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info .my-order-container .order-item .order-link .order-item-main .order-datetime .payment-type, .order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .datetime, .order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .payment-type {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #333;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .receipt span, .order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info .datetime span, .order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info .payment-type span, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info .my-order-container .order-item .order-link .order-item-main .order-datetime .datetime span, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info .my-order-container .order-item .order-link .order-item-main .order-datetime .payment-type span, .order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .datetime span, .order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .payment-type span {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .receipt p, .order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info .datetime p, .order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info .payment-type p, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info .my-order-container .order-item .order-link .order-item-main .order-datetime .datetime p, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info .my-order-container .order-item .order-link .order-item-main .order-datetime .payment-type p, .order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .datetime p, .order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-datetime .payment-type p {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.order-main .container .order-list .my-order .my-order-container .order-item .order-link .order-item-main .order-imgs {
+  display: flex;
+  align-items: baseline;
+  margin-left: auto;
+  gap: 2rem;
+}
+.order-main .container .order-list .my-order .my-order-container-empty {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.order-main .container .order-list .my-order .my-order-container-empty img {
+  width: 12rem;
+  height: 12rem;
+  margin-bottom: 7rem;
+}
+.order-main .container .order-list .my-order .my-order-container-empty .warning {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1.7rem;
+}
+.order-main .container .order-list .my-order .my-order-container-empty span {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: grey;
+  margin-bottom: 4rem;
+}
+.order-main .container .order-list .my-order .my-order-container-empty button {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #fff;
+  width: 27rem;
+  height: 5.4rem;
+  background: orange;
+  border: none;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.order-main .container .order-list .my-order .my-order-container-empty button:hover {
+  box-shadow: 0 0 2rem orange;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.order-main .container .order-list .my-order .enter-order {
+  display: flex;
+  flex-direction: column;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-header {
+  margin-bottom: 3.7rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-header h4, .order-main .container .order-list .my-order .enter-order .enter-order-header .enter-order-main .order-cash-btn .order-cash .order-cash-header .desc span, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-header .desc .enter-order-header span {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 1.6rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-header span {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: gray;
+  margin-bottom: 1rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-header .order-number {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: orange;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main {
+  display: flex;
+  align-items: flex-start;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-status {
+  width: 33rem;
+  height: 22rem;
+  padding: 3rem;
+  border: 0.1rem solid gray;
+  border-radius: 1rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-status .status {
+  padding: 0.8rem 1rem;
+  background-color: #27AE60;
+  color: #fff;
+  border-radius: 0.5rem;
+  border: none;
+  margin-bottom: 2.8rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info .receipt, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info .datetime, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info .payment-type {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #333;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info .receipt span, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info .datetime span, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info .payment-type span {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info .receipt p, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info .datetime p, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-status .order-status-info .payment-type p {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-address-user-info {
+  width: 33rem;
+  height: 22rem;
+  padding: 3rem;
+  border: 0.1rem solid gray;
+  border-radius: 1rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-address-user-info .delivery, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-address-user-info .profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-address-user-info .delivery .desc, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-address-user-info .profile .desc {
+  margin-bottom: 2.5rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-address-user-info .delivery .desc h4, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-address-user-info .delivery .order-cash-btn .order-cash .order-cash-header .desc span, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-header .order-left .order-status-information .order-address-user-info .delivery .desc span, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-address-user-info .profile .desc h4, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-address-user-info .profile .order-cash-btn .order-cash .order-cash-header .desc span, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-header .order-left .order-status-information .order-address-user-info .profile .desc span {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-address-user-info .delivery .desc span, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-address-user-info .profile .desc span {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: gray;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .orders-list .title {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .orders-list .orders-list-item {
+  width: 70rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+  padding: 2rem;
+  border: 0.1rem solid gray;
+  border-radius: 0.5rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .orders-list .orders-list-item img {
+  width: 16.5rem;
+  height: 1.6 0.5rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .orders-list .orders-list-item .desc {
+  display: flex;
+  flex-direction: column;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .orders-list .orders-list-item .desc .product, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .orders-list .orders-list-item .desc .order-cash-btn .order-cash .order-cash-main .delivery, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main .order-left .orders-list .orders-list-item .desc .delivery, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main .order-left .orders-list .orders-list-item .desc .order-status-information .order-address-user-info .profile, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main .order-left .order-status-information .order-address-user-info .orders-list .orders-list-item .desc .profile, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .orders-list .orders-list-item .desc .order-status-information .order-address-user-info .order-cash-btn .order-cash .order-cash-main .profile, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-address-user-info .order-cash-btn .order-cash .order-cash-main .orders-list .orders-list-item .desc .profile, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .orders-list .orders-list-item .desc .order-cash-btn .order-cash .order-cash-main .discounts, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main .order-left .orders-list .orders-list-item .desc .discounts {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .orders-list .orders-list-item .desc .delivery-time {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: gray;
+  margin-bottom: 5rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .orders-list .orders-list-item .desc .discount {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: gray;
+  -webkit-text-decoration: line-through red;
+          text-decoration: line-through red;
+  margin-bottom: 1rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .orders-list .orders-list-item .desc .sum {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .orders-list .orders-list-item .desc .sum span {
+  color: gray;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .orders-list .orders-list-link {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: red;
+  margin-top: 3rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn {
+  margin-left: auto;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash {
+  width: 33rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 0.1rem solid gray;
+  border-radius: 1rem;
+  padding: 3rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-header .desc {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-header .desc h4, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-header .desc span {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-header .desc span {
+  font-weight: 400;
+  color: gray;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main {
+  border-bottom: 0.1rem solid gray;
+  padding-bottom: 2rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main .product, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main .delivery, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main .order-left .order-status-information .order-address-user-info .profile, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-address-user-info .order-cash-btn .order-cash .order-cash-main .profile, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main .discounts {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main .product .sum, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main .delivery .sum, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main .order-left .order-status-information .order-address-user-info .profile .sum, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-address-user-info .order-cash-btn .order-cash .order-cash-main .profile .sum, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main .discounts .sum {
+  margin-left: auto;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main .discounts .sum {
+  color: red;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main .delivery, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main .order-left .order-status-information .order-address-user-info .profile, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-address-user-info .order-cash-btn .order-cash .order-cash-main .profile {
+  align-items: flex-start;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main .delivery .time-status, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main .order-left .order-status-information .order-address-user-info .profile .time-status, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-address-user-info .order-cash-btn .order-cash .order-cash-main .profile .time-status {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: auto;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main .delivery .time-status .status, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main .order-left .order-status-information .order-address-user-info .profile .time-status .status, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-address-user-info .order-cash-btn .order-cash .order-cash-main .profile .time-status .status {
+  color: #27AE60;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main .delivery .time-status .time, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-main .order-left .order-status-information .order-address-user-info .profile .time-status .time, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-left .order-status-information .order-address-user-info .order-cash-btn .order-cash .order-cash-main .profile .time-status .time {
+  color: gray;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-bottom {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-bottom span {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-bottom .total-price {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .cash-button {
+  width: 100%;
+  height: 4rem;
+  background-color: #FFEBC0;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: orange;
+  font-size: 1.4rem;
+  font-weight: 400;
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+.order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .cash-button:hover {
+  box-shadow: 0 0 2rem #FFEBC0;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+main h1 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 50px 0px;
+}
+main hr {
+  opacity: 0.5;
+}
+
+.wishlist_cart {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0px;
+}
+.wishlist_cart .img2 {
+  padding: 45px;
+}
+.wishlist_cart .sale {
+  position: absolute;
+  z-index: 2;
+  width: 35px;
+  height: 26px;
+  background-color: #f23d5b;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  padding: 6px 5px;
+}
+.wishlist_cart .info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.wishlist_cart .info ul li {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  font-size: 12px;
+}
+.wishlist_cart .info ul li p {
+  color: #8e969e;
+}
+.wishlist_cart .info ul li span {
+  color: #171f26;
+}
+.wishlist_cart .info ul li:first-child {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 12px;
+}
+.wishlist_cart .info .bottom_menu {
+  margin-top: 100px;
+}
+.wishlist_cart .info .bottom_menu ol {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.wishlist_cart .info .bottom_menu ol li {
+  display: flex;
+  gap: 8px;
+  font-size: 12px;
+  color: #8e969e;
+}
+.wishlist_cart .info .bottom_menu ol .yellow {
+  color: #ffae00;
+}
+.wishlist_cart .add_to_basket {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 30px;
+  border-left: 1px solid #dae0e5;
+}
+.wishlist_cart .add_to_basket .outer {
+  color: red;
+  text-decoration: line-through;
+}
+.wishlist_cart .add_to_basket .outer .inner {
+  color: #8e969e;
+}
+.wishlist_cart .add_to_basket .amount {
+  display: flex;
+  align-items: center;
+}
+.wishlist_cart .add_to_basket .amount p {
+  font-size: 24px;
+}
+.wishlist_cart .add_to_basket .amount span {
+  font-size: 14px;
+  color: #8e969e;
+}
+.wishlist_cart .add_to_basket .capacity {
+  display: flex;
+  gap: 10px;
+}
+.wishlist_cart .add_to_basket .capacity p {
+  border: 1px solid #dae0e5;
+  border-radius: 5px;
+  padding: 3px;
+  cursor: pointer;
+}
+.wishlist_cart .add_to_basket .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.wishlist_cart .add_to_basket .checkbox .red_box {
+  width: 18px;
+  height: 18px;
+  border-radius: 5px;
+  background-color: #f23d5b;
+}
+.wishlist_cart .add_to_basket .checkbox .box {
+  width: 18px;
+  height: 18px;
+  border-radius: 5px;
+  background-color: #dae0e5;
+}
+.wishlist_cart .add_to_basket .checkbox .border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: 2px solid #dae0e5;
+  border-radius: 10px;
+}
+.wishlist_cart .add_to_basket .checkbox .border .color {
+  width: 18px;
+  height: 18px;
+  border-radius: 5px;
+  background-color: #171f26;
+}
+.wishlist_cart .add_to_basket h2 {
+  font-size: 14px;
+  line-height: 14px;
+  color: #8e969e;
+}
+.wishlist_cart .add_to_basket .btn_wishlist {
+  margin-top: 130px;
+}
+
+.recommended {
+  margin-top: 50px;
+}
+.recommended h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.recommended .title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.recommended .title h4, .recommended .title .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-header .desc span, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-header .desc .recommended .title span {
+  font-size: 14px;
+  font-weight: 400;
+}
+.recommended .title span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffae00;
+  cursor: pointer;
+}
+
+.product_info_list {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0px;
+}
+.product_info_list .products_info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.product_info_list .products_info .sale_text {
+  color: #ffae00;
+}
+.product_info_list .products_info .favourite {
+  position: absolute;
+}
+.product_info_list .products_info .favourite img {
+  margin-left: 180px;
+}
+.product_info_list .products_info .sum {
+  display: flex;
+}
+.product_info_list .products_info .sum p {
+  font-size: 18px;
+}
+.product_info_list .products_info .sum p span {
+  font-size: 14px;
+  padding: 5px;
+  color: #8e969e;
+}
+.product_info_list .products_info p {
+  width: 215px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.product_info_list .products_info .stars img {
+  padding-right: 5px;
+}
+
+.mobile_apps {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 22rem;
+  background-color: #fff45f;
+}
+.mobile_apps .text {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-left: 30px;
+}
+.mobile_apps .text h5 {
+  width: 600px;
+  font-size: 46px;
+}
+.mobile_apps .text .app_store img {
+  padding-right: 2rem;
+}
+.mobile_apps .img_phones {
+  position: absolute;
+  bottom: 0px;
+  left: 680px;
+  z-index: 1;
+}
+.mobile_apps .qr_code {
+  padding: 30px;
+}
+
+main h1 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 50px 0px;
+}
+main .adding_goods {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+main .adding_goods p {
+  font-size: 20px;
+  font-weight: 400;
+}
+main .adding_goods span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #8e969e;
+}
+main .adding_goods .btn_wishlist {
+  margin-top: 20px;
+}
+main .recommended_wishlist {
+  margin-top: 230px;
+}
+main .recommended_wishlist h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+main .recommended_wishlist .title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+main .recommended_wishlist .title h4, main .recommended_wishlist .title .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-header .desc span, .order-main .container .order-list .my-order .enter-order .enter-order-main .order-cash-btn .order-cash .order-cash-header .desc main .recommended_wishlist .title span {
+  font-size: 14px;
+  font-weight: 400;
+}
+main .recommended_wishlist .title span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffae00;
+  cursor: pointer;
+}
+
+.reviews-main {
+  display: flex;
+}
+.reviews-main .order-sidebar {
+  position: relative;
+  width: 34rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex;
+  gap: 6rem;
+}
+.reviews-main .order-sidebar .username-register-date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.reviews-main .order-sidebar .username-register-date .username {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #000;
+}
+.reviews-main .order-sidebar .username-register-date .register-date {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #e5e5e5;
+}
+.reviews-main .order-sidebar .order-menu {
+  position: relative;
+  width: 34rem;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.reviews-main .order-sidebar .order-menu .user-order, .reviews-main .order-sidebar .order-menu .heart, .reviews-main .order-sidebar .order-menu .exit, .reviews-main .order-sidebar .order-menu .settings, .reviews-main .order-sidebar .order-menu .smile, .reviews-main .order-sidebar .order-menu .address, .reviews-main .order-sidebar .order-menu .promo-code, .reviews-main .order-sidebar .order-menu .smile-sad, .reviews-main .order-sidebar .order-menu .notifications, .reviews-main .order-main .container .order-sidebar .order-menu .notifications, .order-main .container .reviews-main .order-sidebar .order-menu .notifications, .reviews-main .order-main .container .order-sidebar .order-menu .smile-sad, .order-main .container .reviews-main .order-sidebar .order-menu .smile-sad, .reviews-main .order-sidebar .order-menu .cart, .reviews-main .order-main .container .order-sidebar .order-menu .cart, .order-main .container .reviews-main .order-sidebar .order-menu .cart, .reviews-main .order-main .container .order-sidebar .order-menu .promo-code, .order-main .container .reviews-main .order-sidebar .order-menu .promo-code, .reviews-main .order-main .container .order-sidebar .order-menu .address, .order-main .container .reviews-main .order-sidebar .order-menu .address, .reviews-main .order-main .container .order-sidebar .order-menu .smile, .order-main .container .reviews-main .order-sidebar .order-menu .smile, .reviews-main .order-main .container .order-sidebar .order-menu .settings, .order-main .container .reviews-main .order-sidebar .order-menu .settings, .reviews-main .order-main .container .order-sidebar .order-menu .exit, .order-main .container .reviews-main .order-sidebar .order-menu .exit, .reviews-main .order-main .container .order-sidebar .order-menu .heart, .order-main .container .reviews-main .order-sidebar .order-menu .heart {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 1.3rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.reviews-main .order-sidebar .order-menu .user-order img, .reviews-main .order-sidebar .order-menu .heart img, .reviews-main .order-sidebar .order-menu .exit img, .reviews-main .order-sidebar .order-menu .settings img, .reviews-main .order-sidebar .order-menu .smile img, .reviews-main .order-sidebar .order-menu .address img, .reviews-main .order-sidebar .order-menu .promo-code img, .reviews-main .order-sidebar .order-menu .smile-sad img, .reviews-main .order-sidebar .order-menu .notifications img, .reviews-main .order-main .container .order-sidebar .order-menu .notifications img, .order-main .container .reviews-main .order-sidebar .order-menu .notifications img, .reviews-main .order-main .container .order-sidebar .order-menu .smile-sad img, .order-main .container .reviews-main .order-sidebar .order-menu .smile-sad img, .reviews-main .order-sidebar .order-menu .cart img, .reviews-main .order-main .container .order-sidebar .order-menu .cart img, .order-main .container .reviews-main .order-sidebar .order-menu .cart img, .reviews-main .order-main .container .order-sidebar .order-menu .promo-code img, .order-main .container .reviews-main .order-sidebar .order-menu .promo-code img, .reviews-main .order-main .container .order-sidebar .order-menu .address img, .order-main .container .reviews-main .order-sidebar .order-menu .address img, .reviews-main .order-main .container .order-sidebar .order-menu .smile img, .order-main .container .reviews-main .order-sidebar .order-menu .smile img, .reviews-main .order-main .container .order-sidebar .order-menu .settings img, .order-main .container .reviews-main .order-sidebar .order-menu .settings img, .reviews-main .order-main .container .order-sidebar .order-menu .exit img, .order-main .container .reviews-main .order-sidebar .order-menu .exit img, .reviews-main .order-main .container .order-sidebar .order-menu .heart img, .order-main .container .reviews-main .order-sidebar .order-menu .heart img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 2rem;
+}
+.reviews-main .order-sidebar .order-menu .user-order .name, .reviews-main .order-sidebar .order-menu .heart .name, .reviews-main .order-sidebar .order-menu .exit .name, .reviews-main .order-sidebar .order-menu .settings .name, .reviews-main .order-sidebar .order-menu .smile .name, .reviews-main .order-sidebar .order-menu .address .name, .reviews-main .order-sidebar .order-menu .promo-code .name, .reviews-main .order-sidebar .order-menu .smile-sad .name, .reviews-main .order-sidebar .order-menu .notifications .name, .reviews-main .order-sidebar .order-menu .cart .name {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: orange;
+}
+.reviews-main .order-sidebar .order-menu .user-order .count, .reviews-main .order-sidebar .order-menu .heart .count, .reviews-main .order-sidebar .order-menu .exit .count, .reviews-main .order-sidebar .order-menu .settings .count, .reviews-main .order-sidebar .order-menu .smile .count, .reviews-main .order-sidebar .order-menu .address .count, .reviews-main .order-sidebar .order-menu .promo-code .count, .reviews-main .order-sidebar .order-menu .smile-sad .count, .reviews-main .order-sidebar .order-menu .notifications .count, .reviews-main .order-sidebar .order-menu .cart .count {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: orange;
+  margin-left: auto;
+  background-color: #f2f5f7;
+  border-radius: 0.5rem;
+  position: absolute;
+  right: 0;
+  padding: 1rem 1.5rem;
+}
+.reviews-main .order-sidebar .order-menu .user-order:hover, .reviews-main .order-sidebar .order-menu .heart:hover, .reviews-main .order-sidebar .order-menu .exit:hover, .reviews-main .order-sidebar .order-menu .settings:hover, .reviews-main .order-sidebar .order-menu .smile:hover, .reviews-main .order-sidebar .order-menu .address:hover, .reviews-main .order-sidebar .order-menu .promo-code:hover, .reviews-main .order-sidebar .order-menu .smile-sad:hover, .reviews-main .order-sidebar .order-menu .notifications:hover, .reviews-main .order-sidebar .order-menu .cart:hover {
+  background-color: #f2f5f7;
+  transition: background-color 0.3s ease-in-out;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .heart, .reviews-main .order-sidebar .order-menu .exit, .reviews-main .order-sidebar .order-menu .settings, .reviews-main .order-sidebar .order-menu .smile, .reviews-main .order-sidebar .order-menu .address, .reviews-main .order-sidebar .order-menu .promo-code, .reviews-main .order-sidebar .order-menu .smile-sad, .reviews-main .order-sidebar .order-menu .notifications, .reviews-main .order-main .container .order-sidebar .order-menu .notifications, .order-main .container .reviews-main .order-sidebar .order-menu .notifications, .reviews-main .order-main .container .order-sidebar .order-menu .smile-sad, .order-main .container .reviews-main .order-sidebar .order-menu .smile-sad, .reviews-main .order-sidebar .order-menu .cart, .reviews-main .order-main .container .order-sidebar .order-menu .cart, .order-main .container .reviews-main .order-sidebar .order-menu .cart, .reviews-main .order-main .container .order-sidebar .order-menu .promo-code, .order-main .container .reviews-main .order-sidebar .order-menu .promo-code, .reviews-main .order-main .container .order-sidebar .order-menu .address, .order-main .container .reviews-main .order-sidebar .order-menu .address, .reviews-main .order-main .container .order-sidebar .order-menu .smile, .order-main .container .reviews-main .order-sidebar .order-menu .smile, .reviews-main .order-main .container .order-sidebar .order-menu .settings, .order-main .container .reviews-main .order-sidebar .order-menu .settings, .reviews-main .order-main .container .order-sidebar .order-menu .exit, .order-main .container .reviews-main .order-sidebar .order-menu .exit {
+  background-color: transparent;
+}
+.reviews-main .order-sidebar .order-menu .heart .name, .reviews-main .order-sidebar .order-menu .exit .name, .reviews-main .order-sidebar .order-menu .settings .name, .reviews-main .order-sidebar .order-menu .smile .name, .reviews-main .order-sidebar .order-menu .address .name, .reviews-main .order-sidebar .order-menu .promo-code .name, .reviews-main .order-sidebar .order-menu .smile-sad .name, .reviews-main .order-sidebar .order-menu .notifications .name, .reviews-main .order-sidebar .order-menu .cart .name {
+  color: #000;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .cart .name {
+  color: orange;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .promo-code, .reviews-main .order-sidebar .order-menu .smile-sad, .reviews-main .order-sidebar .order-menu .notifications, .reviews-main .order-main .container .order-sidebar .order-menu .notifications, .order-main .container .reviews-main .order-sidebar .order-menu .notifications, .reviews-main .order-main .container .order-sidebar .order-menu .smile-sad, .order-main .container .reviews-main .order-sidebar .order-menu .smile-sad {
+  border-bottom: 0.2rem solid #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .order-sidebar .order-menu .active {
+  background-color: #f2f5f7;
+}
+.reviews-main .review-content {
+  padding-left: 80px;
+}
+.reviews-main .review-content h1 {
+  margin: 0;
+  padding: 0px 0px 30px 0px;
+}
+.reviews-main .review-content .review-by-client {
+  display: flex;
+  gap: 30px;
+  border: 1px solid #dae0e5;
+  border-radius: 5px;
+  padding: 20px;
+}
+.reviews-main .review-content .review-by-client .text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.reviews-main .review-content .review-by-client .text-content h3 {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+.reviews-main .review-content .review-by-client .text-content p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #171f26;
+}
+.reviews-main .review-content .review-by-client .text-content .stars img {
+  padding-right: 6px;
+}
+.reviews-main .review-content .review-by-client .text-content .review-images img {
+  padding-right: 7px;
+>>>>>>> 4b2d2187bc63b94cccce3295244e15145732964b
 }/*# sourceMappingURL=main.css.map */

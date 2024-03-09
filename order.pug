@@ -1,0 +1,244 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    // CSS LINK
+    link(rel='stylesheet' href='../assets/css/main.css')
+    // FONTAWESOME
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css')
+    // JS
+    script(defer type='text/javascript' src='../assets/js/order.js')
+    title Zaytun
+body
+    include ./components/header.pug
+    main.order-main 
+        .container 
+            //- Order Sidebar Menu
+            .order-sidebar 
+                .username-register-date 
+                    h4.username Антон Павлов
+                    span.register-date Зарегистрирован: 12.07.2020  
+                .order-menu 
+                    .item.user-order.active
+                        img(src="../assets/images/icons/stack.svg", alt="Мои заказы")
+                        span.name Мои заказы
+                        span.count 4 
+                    .item.heart
+                        img(src="../assets/images/icons/heart.svg", alt="Избранное")
+                        a(href='/html/components/wishlist-empty.html'): span.name Избранное
+                        span.count 2 
+                    .item.cart
+                        img(src="../assets/images/icons/cart.svg", alt="Корзина")
+                        span.name Корзина
+                        span.count 12 
+                    .item.promo-code
+                        img(src="../assets/images/icons/carousel.svg", alt="Промокоды")
+                        span.name Промокоды
+                        span.count 
+                    .item.notifications
+                        img(src="../assets/images/icons/bell.svg", alt="Уведомления")
+                        span.name Уведомления
+                        span.count 2
+                    .item.address
+                        img(src="../assets/images/icons/pin.svg", alt="Мои адреса")
+                        span.name Мои адреса
+                        span.count 
+                    .item.smile
+                        img(src="../assets/images/icons/smile.svg", alt="Мои отзывы")
+                        a(href='/html/components/reviews.html'): span.name Мои отзывы
+                        span.count 
+                    .item.smile-sad
+                        img(src="../assets/images/icons/smile-sad.svg", alt="Мои жалобы")
+                        span.name Мои жалобы
+                        span.count
+                    .item.settings
+                        img(src="../assets/images/icons/lock.svg", alt="Настройки и безопасность")
+                        span.name Настройки и безопасность
+                        span.count
+                    .item.exit
+                        img(src="../assets/images/icons/mail-reply.svg", alt="Выйти")
+                        span.name Выйти
+                        span.count
+            //- Order List 
+            .order-list 
+                h4.my-order-title Мои заказы
+                .my-order
+                    .order-types
+                        .item.active-orders.active
+                            span.type Активные заказы
+                            span.count 4
+                        .item.completed-orders
+                            span.type Выполненные заказы
+                            span.count 1
+                        .item.canceled-orders 
+                            span.type Отмененные заказы
+                            span.count 1
+                    //- Order Not Empty
+                    ol.my-order-container
+                        li.order-item 
+                            a.order-link(href="#") 
+                                .order-item-header 
+                                    .order-number
+                                        .name Номер заказа
+                                        .order-id 721499
+                                    .status Обрабока заказа
+                                    .total-price 
+                                        .name К оплате
+                                        .price 12 902 000 сум
+                                .order-item-main 
+                                    .order-datetime
+                                        .receipt 
+                                            span Получение:
+                                            p Самовывоз
+                                        .datetime 
+                                            span Дата заказа:
+                                            p 17.07.2020
+                                        .payment-type
+                                            span Тип оплаты:
+                                            p Онлайн
+                                    .order-imgs 
+                                        img(src="../assets/images/orders/order-1.png", alt="")
+                                        img(src="../assets/images/orders/order-2.png", alt="")
+                                        img(src="../assets/images/orders/order-3.png", alt="")
+                        li.order-item 
+                            a.order-link(href="#") 
+                                .order-item-header 
+                                    .order-number
+                                        .name Номер заказа
+                                        .order-id 83429
+                                    .status Ожидается оплата
+                                    .total-price 
+                                        .name К оплате
+                                        .price 12 902 000 сум
+                                .order-item-main 
+                                    .order-datetime
+                                        .receipt 
+                                            span Получение:
+                                            p Курьером, Дом
+                                        .datetime 
+                                            span Дата заказа:
+                                            p 16.07.2020
+                                        .payment-type
+                                            span Тип оплаты:
+                                            p Онлайн
+                                    .order-imgs 
+                                        img(src="../assets/images/orders/order-4.png", alt="")
+                                        img(src="../assets/images/orders/order-5.png", alt="")
+                                        img(src="../assets/images/orders/order-6.png", alt="")
+                                        img(src="../assets/images/orders/order-7.png", alt="")
+                        li.order-item 
+                            a.order-link(href="#") 
+                                .order-item-header 
+                                    .order-number
+                                        .name Номер заказа
+                                        .order-id 83429
+                                    .status Доставляется
+                                    .total-price 
+                                        .name К оплате
+                                        .price 12 902 000 сум
+                                .order-item-main 
+                                    .order-datetime
+                                        .receipt 
+                                            span Получение:
+                                            p Курьером, Работа
+                                        .datetime 
+                                            span Дата заказа:
+                                            p 12.07.2020
+                                        .payment-type
+                                            span Тип оплаты:
+                                            p Пластиковой картой
+                                    .order-imgs 
+                                        img(src="../assets/images/orders/order-8.png", alt="")     
+                    //- Order ID
+                    .enter-order 
+                        .enter-order-header 
+                            h4 Заказ
+                            span Номер заказа
+                            .order-number 83429
+                        .enter-order-main 
+                            .order-left 
+                                .order-status-information
+                                    .order-status 
+                                        button.status Доставлен
+                                        .order-status-info
+                                                .receipt 
+                                                    span Получение:
+                                                    p Самовывоз
+                                                .datetime 
+                                                    span Дата заказа:
+                                                    p 17.07.2020
+                                                .payment-type
+                                                    span Тип оплаты:
+                                                    p Онлайн
+                                    .order-address-user-info 
+                                        .delivery 
+                                            img(src="../assets/images/icons/delivery.svg", alt="")
+                                            .desc 
+                                                h4 Доставка
+                                                span г. Ташкент, Мирабадский р-н, ул. Тараса Шевченко 42
+                                        .profile 
+                                            img(src="../assets/images/icons/profile.svg", alt="")
+                                            .desc 
+                                                h4 Получатель
+                                                span.name Антон Павлов 
+                                                span.phone-number +998 90 *** ** 22
+                                .orders-list 
+                                    h4.title Товары
+                                    .orders-list-item
+                                        img(src="../assets/images/orders/order-1.png", alt="")
+                                        .desc 
+                                            .product Apple iPhone 11 8/128 GB, черный
+                                            .delivery-time Доставка за 36 часов
+                                            .discount 2 720 000
+                                            .sum 16 843 000
+                                                span сум
+                                    .orders-list-item
+                                        img(src="../assets/images/orders/order-2.png", alt="")
+                                        .desc 
+                                            .product Sony WH-1000XM3 беспроводные наушники
+                                            .delivery-time Доставка за 24 часа
+                                            .discount 2 720 000
+                                            .sum 16 843 000
+                                                span сум
+                                    .orders-list-item
+                                        img(src="../assets/images/orders/order-3.png", alt="")
+                                        .desc 
+                                            .product Рубашка LC Waikiki мужская, фиолетовая цвет пурпурный, размер S
+                                            .delivery-time Доставка за 36 часов
+                                            .discount 2 720 000
+                                            .sum 16 843 000
+                                                span сум
+                                    a(href="#").orders-list-link Пожаловаться на заказ
+                            .order-cash-btn    
+                                .order-cash 
+                                    .order-cash-header 
+                                        img(src="../assets/images/icons/cash.svg", alt="")
+                                        .desc
+                                            h4 Наличными
+                                            span При получении, курьеру
+                                    .order-cash-main 
+                                        .product Товары 
+                                            span.count (3)
+                                            span.sum 17 923 090 сум
+                                        .discounts Скидки
+                                            span.sum - 1 819 023 сум
+                                        .delivery Доставка
+                                            .time-status
+                                                .status Бесплатно
+                                                .time за 24 часа
+                                    .order-cash-bottom 
+                                        span К оплате
+                                        .total-price 16 011 067 сум
+                                .cash-button Повторить заказ
+
+                                    
+
+                    //- Order Empty 
+                    .my-order-container-empty
+                        img(src="../assets/images/icons/stack-big.svg", alt="Мои заказы")
+                        h4.warning У вас еще нет заказов
+                        span Вперед, начните покупать!
+                        button Начать покупки
+                    
+
+    include ./components/footer.pug

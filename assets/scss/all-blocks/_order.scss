@@ -1,0 +1,595 @@
+.order-main{
+    .container{
+        display: flex;
+        align-items: flex-start;
+        gap: 3rem;
+        .order-sidebar{
+            position: relative;
+            width: 34rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex;
+            gap: 6rem;
+            .username-register-date{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                .username{
+                    font-size: 2.4rem;
+                    font-weight: 400;
+                    color: #000;
+                }
+                .register-date{
+                    font-size: 1.4rem;
+                    font-weight: 400;
+                    color: #E5E5E5;
+
+                }
+            }
+            .order-menu{
+                position: relative;
+                width: 34rem;
+                height: max-content;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                .user-order{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    padding: 1.3rem 1rem;
+                    border-radius: .5rem;
+                    cursor: pointer;
+                    img{
+                        width: 2rem;
+                        height: 2rem;
+                        margin-right: 2rem;
+                    }
+                    .name{
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        color: orange;
+                    }
+                    .count{
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        color: orange;
+                        margin-left: auto;
+                        background-color: #F2F5F7;
+                        border-radius: .5rem;
+                        position: absolute;
+                        right: 0;
+                        padding: 1rem 1.5rem;
+                    }
+                    &:hover{
+                        background-color: #F2F5F7;
+                        transition: background-color .3s ease-in-out;
+                    }
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+                .heart{
+                    @extend .user-order;
+                    background-color: transparent;
+                    .name{
+                        color: #000;
+                    }
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+                .cart{
+                    @extend .heart;
+                    .name{
+                        color: orange;
+                    }
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+                .promo-code{
+                    @extend .heart;
+                    border-bottom: .2rem solid #F2F5F7;
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+                .notifications{
+                    @extend .promo-code;
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+                .address{
+                    @extend .heart;
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+                .smile{
+                    @extend .heart;
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+                .address{
+                    @extend .heart;
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+                .smile-sad{
+                    @extend .promo-code;
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+                .settings{
+                    @extend .heart;
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+                .exit{
+                    @extend .heart;
+                }
+                .active{
+                    background-color: #F2F5F7;
+                }
+            }
+        }
+        .order-list{
+            position: relative;
+            width: 100%;
+            .my-order-title{
+                display: none;
+                font-size: 2.4rem;
+                font-weight: 400;
+                margin-bottom: 3.6rem;
+            }
+            .my-order{
+                .order-types{
+                    display: none;
+                    align-items: center;
+                    gap: 3rem;
+                    border-bottom: .1rem solid gray;
+                    margin-bottom: 3rem;
+                    .item{
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        color: gray;
+                        padding-bottom: 2rem;
+                        cursor: pointer;
+                        .type{
+                            margin-right: 2rem;
+                        }
+                        .count{
+                            color: gray;
+                        }
+                        &:hover{
+                            color: orange;
+                            border-bottom: .2rem solid orange;
+                            padding-bottom: 2rem;
+                        }
+                    }
+                    .active{
+                        color: orange;
+                        border-bottom: .2rem solid orange;
+                        padding-bottom: 2rem;
+                    }
+                }
+                .my-order-container{
+                    width: 100%;
+                    display: none;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    margin-bottom: 6.6rem;
+                    gap: 1rem;
+                    .order-item {
+                        width: 100%;
+                        .order-link{
+                            width: 100%;
+                            height: fit-content;
+                            border: .1rem solid gray;
+                            background-color:  #fff;
+                            display: flex;
+                            flex-direction: column;
+                            border-radius: .2rem;
+                            .order-item-header{
+                                display: flex;
+                                align-items: center;
+                                padding: 2rem;
+                                border-bottom: .1rem solid gray;
+                                .order-number{
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: flex-start;
+                                    gap: 1rem;
+                                    margin-right: 3rem;
+                                    .name{
+                                        font-size: 1.4rem;
+                                        font-weight: 400;
+                                        color: gray;
+                                    }
+                                    .order-id{
+                                        font-size: 1.8rem;
+                                        font-weight: 400;
+                                        color: orange;
+                                    }
+                                }
+                                .status{
+                                    background-color: gray;
+                                    font-size: 1.4rem;
+                                    font-weight: 400;
+                                    border-radius: .5rem;
+                                    padding: 1rem 1.5rem;
+                                    color: #fff;
+                                }
+                                .total-price{
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: flex-end;
+                                    gap: 1rem;
+                                    margin-left: auto;
+                                    .name{
+                                        font-size: 1.4rem;
+                                        font-weight: 400;
+                                        color: gray;
+                                    }
+                                    .price{
+                                        font-size: 1.8rem;
+                                        font-weight: 400;
+                                        color: #000;
+                                    }
+                                }
+                            }
+                            .order-item-main{
+                                display: flex;
+                                align-items: center;
+                                padding: 2rem;
+                                .order-datetime{
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: flex-start;
+                                    gap: 2rem;
+                                    .receipt{
+                                        display: flex;
+                                        align-items: center;
+                                        gap: 1rem;
+                                        color: #333;
+                                        span{
+                                            font-size: 1.4rem;
+                                            font-weight: 400;
+                                        }
+                                        p{
+                                            font-size: 1.4rem;
+                                            font-weight: 500;
+                                        }
+                                    }
+                                    .datetime {
+                                        @extend .receipt;
+                                    }
+                                    .payment-type{
+                                        @extend .datetime;
+                                    }
+                                }
+                                .order-imgs{
+                                    display: flex;
+                                    align-items: baseline;
+                                    margin-left: auto;
+                                    gap: 2rem;
+                                }
+                            }
+                        }
+                    }
+                }
+                .my-order-container-empty{
+                    display: none;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 10rem;
+                    img{
+                        width: 12rem;
+                        height: 12rem;
+                        margin-bottom: 7rem;
+                    }
+                    .warning{
+                        font-size: 2rem;
+                        font-weight: 400;
+                        margin-bottom: 1.7rem;
+                    }
+                    span{
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        color: grey;
+                        margin-bottom: 4rem;
+                    }
+                    button{
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        color: #fff;
+                        width: 27rem;
+                        height: 5.4rem;
+                        background: orange;
+                        border: none;
+                        cursor: pointer;
+                        transition: box-shadow .3s ease-in-out;
+                        &:hover{
+                            box-shadow: 0 0 2rem orange;
+                            transition: box-shadow .3s ease-in-out;
+                        }
+                    }
+                }
+                .enter-order{
+                    display: flex;
+                    flex-direction: column;
+                    .enter-order-header{
+                        margin-bottom: 3.7rem;
+                        h4{
+                            font-size: 2.4rem;
+                            font-weight: 400;
+                            margin-bottom: 1.6rem;
+                        }
+                        span{
+                            font-size: 1.4rem;
+                            font-weight: 400;
+                            color: gray;
+                            margin-bottom: 1rem;
+                        }
+                        .order-number{
+                            font-size: 1.8rem;
+                            font-weight: 400;
+                            color: orange;
+                        }
+                    }
+                    .enter-order-main {
+                        display: flex;
+                        align-items: flex-start;
+                        .order-left {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            .order-status-information{
+                                display: flex;
+                                align-items: center;
+                                gap: 4rem;
+                                .order-status{
+                                    width: 33rem;
+                                    height: 22rem;
+                                    padding: 3rem;
+                                    border: .1rem solid gray;
+                                    border-radius: 1rem;
+                                    .status{
+                                        padding: .8rem 1rem;
+                                        background-color: #27AE60;
+                                        color: #fff;
+                                        border-radius: .5rem;
+                                        border: none;
+                                        margin-bottom: 2.8rem;
+                                    }
+                                    .order-status-info{
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: flex-start;
+                                        gap: 2rem;
+                                        .receipt{
+                                            display: flex;
+                                            align-items: center;
+                                            gap: 1rem;
+                                            color: #333;
+                                            span{
+                                                font-size: 1.4rem;
+                                                font-weight: 400;
+                                            }
+                                            p{
+                                                font-size: 1.4rem;
+                                                font-weight: 500;
+                                            }
+                                        }
+                                        .datetime {
+                                            @extend .receipt;
+                                        }
+                                        .payment-type{
+                                            @extend .datetime;
+                                        }
+                                    }
+                                }
+                                .order-address-user-info{
+                                    width: 33rem;
+                                    height: 22rem;
+                                    padding: 3rem;
+                                    border: .1rem solid gray;
+                                    border-radius: 1rem;
+                                    .delivery{
+                                        display: flex;
+                                        align-items: flex-start;
+                                        gap: 1rem;
+                                        .desc{
+                                            margin-bottom: 2.5rem;
+                                            h4{
+                                                font-size: 1.4rem;
+                                                font-weight: 500;
+                                            }
+                                            span{
+                                                font-size: 1.4rem;
+                                                font-weight: 400;
+                                                line-height: 2rem;
+                                                color: gray;
+                                            }
+                                        }
+                                    }
+                                    .profile{
+                                        @extend .delivery;
+                                    }
+                                }
+                            }
+                            .orders-list{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 2rem;
+                                margin-top: 6rem;
+                                margin-bottom: 6rem;
+                                .title{
+                                    font-size: 2.4rem;
+                                    font-weight: 400;
+                                }
+                                .orders-list-item{
+                                    width: 70rem;
+                                    display: flex;
+                                    align-items: flex-start;
+                                    gap: 3rem;
+                                    padding: 2rem;
+                                    border: .1rem solid gray;
+                                    border-radius: .5rem;
+                                    img{
+                                        width: 16.5rem;
+                                        height: 1.6.5rem;
+                                    }
+                                    .desc{
+                                        display: flex;
+                                        flex-direction: column;
+                                        .product{
+                                            font-size: 1.6rem;
+                                            font-weight: 500;
+                                            margin-bottom: 1rem;
+                                        }
+                                        .delivery-time{
+                                            font-size: 1.4rem;
+                                            font-weight: 400;
+                                            color: gray;
+                                            margin-bottom: 5rem;
+                                        }
+                                        .discount{
+                                            font-size: 1.2rem;
+                                            font-weight: 400;
+                                            color: gray;
+                                            text-decoration: line-through red;
+                                            margin-bottom: 1rem;
+                                        }
+                                        .sum{
+                                            font-size: 1.6rem;
+                                            font-weight: 400;
+                                            span{
+                                                color: gray;
+                                            }
+                                        }
+                                    }
+                                }
+                                .orders-list-link{
+                                    font-size: 1.4rem;
+                                    font-weight: 400;
+                                    color: red;
+                                    margin-top: 3rem;
+                                }
+                            }
+                        }
+                        .order-cash-btn{
+                            margin-left: auto;
+                            .order-cash{
+                                width: 33rem;
+                                height: fit-content;
+                                border: .1rem solid gray;
+                                border-radius: 1rem;
+                                padding: 3rem;
+                                .order-cash-header{
+                                    display: flex;
+                                    align-items: flex-start;
+                                    gap: 1rem;
+                                    .desc{
+                                        display: flex;
+                                        flex-direction: column;
+                                        gap: .5rem;
+                                        margin-bottom: 2rem;
+                                        h4{
+                                            font-size: 1.4rem;
+                                            font-weight: 500;
+                                        }
+                                        span{
+                                            @extend h4;
+                                            font-weight: 400;
+                                            color: gray;
+                                        }
+                                    }
+                                    
+                                }
+                                .order-cash-main{
+                                    border-bottom: .1rem solid gray;
+                                    padding-bottom: 2rem;
+                                    .product{
+                                        display: flex;
+                                        align-items: center;
+                                        font-size: 1.4rem;
+                                        font-weight: 400;
+                                        line-height: 3rem;
+                                        .sum{
+                                            margin-left: auto;
+                                        }
+                                    }
+                                    .discounts{
+                                        @extend .product;
+                                        .sum{
+                                            color: red;
+                                        }
+                                    }
+                                    .delivery{
+                                        align-items: flex-start;
+                                        @extend .product;
+                                        .time-status{
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: flex-end;
+                                            margin-left: auto;
+                                           .status{
+                                                color: #27AE60;
+                                            }
+                                            .time{
+                                                color: gray;
+                                            }
+                                        }
+                                        
+                                    }
+                                }
+                                .order-cash-bottom{
+                                    margin-top: 2rem;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: flex-start;
+                                    gap: 1rem;
+                                    span{
+                                        font-size: 1.4rem;
+                                        font-weight: 500;
+                                    }
+                                    .total-price{
+                                        font-size: 2rem;
+                                        font-weight: 400;
+                                    }
+                                }
+                            }
+                            .cash-button{
+                                width: 100%;
+                                height: 4rem;
+                                background-color: #FFEBC0;
+                                margin-top: 2rem;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                color: orange;
+                                font-size: 1.4rem;
+                                font-weight: 400;
+                                transition: box-shadow .3s ease-in-out;
+                                cursor: pointer;
+                                border-radius: .5rem;
+                                &:hover{
+                                    box-shadow: 0 0 2rem #FFEBC0;
+                                    transition: box-shadow .3s ease-in-out;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

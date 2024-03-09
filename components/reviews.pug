@@ -1,0 +1,83 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/assets/css/main.css")
+        title Reviews
+    body 
+        include ./header.pug 
+        main.container
+            .reviews-main 
+                //- Order Sidebar Menu
+                .order-sidebar 
+                    .username-register-date 
+                        h4.username Антон Павлов
+                        span.register-date Зарегистрирован: 12.07.2020  
+                    .order-menu 
+                        .item.user-order.active
+                            img(src="/assets/images/icons/stack.svg", alt="Мои заказы")
+                            span.name Мои заказы
+                            span.count 4 
+                        .item.heart
+                            img(src="/assets/images/icons/heart.svg", alt="Избранное")
+                            a(href='/html/components/wishlist-empty.html'): span.name Избранное
+                            span.count 2 
+                        .item.cart
+                            img(src="/assets/images/icons/cart.svg", alt="Корзина")
+                            span.name Корзина
+                            span.count 12 
+                        .item.promo-code
+                            img(src="/assets/images/icons/carousel.svg", alt="Промокоды")
+                            span.name Промокоды
+                            span.count 
+                        .item.notifications
+                            img(src="/assets/images/icons/bell.svg", alt="Уведомления")
+                            span.name Уведомления
+                            span.count 2
+                        .item.address
+                            img(src="/assets/images/icons/pin.svg", alt="Мои адреса")
+                            span.name Мои адреса
+                            span.count 
+                        .item.smile
+                            img(src="/assets/images/icons/smile.svg", alt="Мои отзывы")
+                            a(href='/html/components/reviews.html'): span.name Мои отзывы
+                            span.count 
+                        .item.smile-sad
+                            img(src="/assets/images/icons/smile-sad.svg", alt="Мои жалобы")
+                            span.name Мои жалобы
+                            span.count
+                        .item.settings
+                            img(src="/assets/images/icons/lock.svg", alt="Настройки и безопасность")
+                            span.name Настройки и безопасность
+                            span.count
+                        .item.exit
+                            img(src="/assets/images/icons/mail-reply.svg", alt="Выйти")
+                            span.name Выйти
+                            span.count
+                .review-content 
+                    h1 Мои отзывы
+                    .review-by-client
+                        .photo-content 
+                            img(src="/assets/images/iphone-11.png", alt="iphone11")
+                        .text-content
+                            h3 iPhone 11 8/128GB, черный
+                            .stars 
+                                img(src="/assets/images/icons/star 1.svg", alt="star")
+                                img(src="/assets/images/icons/star 1.svg", alt="star")
+                                img(src="/assets/images/icons/star 1.svg", alt="star")
+                                img(src="/assets/images/icons/star 1.svg", alt="star")
+                                img(src="/assets/images/icons/star.svg", alt="star")
+                            p Достоинства:
+                            p Прежде всего, сложившаяся структура организации играет важную роль в формировании экспериментов, поражающих по своей масштабности и грандиозности.
+                            p Недостатки:
+                            p Недостатков нет
+                            p Комментарий:
+                            p Повседневная практика показывает, что укрепление и развитие внутренней структуры создаёт предпосылки для инновационных методов управления процессами. В своём стремлении улучшить пользовательский опыт мы упускаем, что базовые сценарии поведения пользователей могут быть своевременно верифицированы.
+                            .review-images 
+                                img(src="/assets/images/foto1.png", alt="")
+                                img(src="/assets/images/foto2.png", alt="")
+                                img(src="/assets/images/foto3.png", alt="")
+                                img(src="/assets/images/foto4.png", alt="")
+                                img(src="/assets/images/foto5.png", alt="")
+                                img(src="/assets/images/foto6.png", alt="")
